@@ -8,7 +8,7 @@ int main()
     cout<<"Enter the number: ";
     cin>>n;
     do{
-      
+    
       if(i*i==n)
       {
         n=1;
