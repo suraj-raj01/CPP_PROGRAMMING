@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
@@ -18,8 +18,8 @@ int main()
 /*
 
 Enter the number of row: 3
-3 3 3 
-2 2   
-1 
+3 3 3
+2 2
+1
 
 */
