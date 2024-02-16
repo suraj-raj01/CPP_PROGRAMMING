@@ -12,7 +12,7 @@ int main(){
             cout<<factor<<"\t";
         }
         factor++;
-    }while(factor<=n);
+    }while(factor<=n/2);
 }
 
 /*

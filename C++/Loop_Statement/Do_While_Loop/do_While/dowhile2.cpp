@@ -1,3 +1,5 @@
+// WAP to print odd number till user input.
+
 #include <iostream>
 using namespace std;
 int main()

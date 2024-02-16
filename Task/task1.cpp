@@ -1,4 +1,4 @@
-// Write a program to conver celsius to fahrenheit
+// Write a program to convert celsius to fahrenheit
 /*
 #include <iostream>
 using namespace std;
