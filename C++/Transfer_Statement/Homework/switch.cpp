@@ -38,7 +38,7 @@ int main()
         cout<<"area of rectangle: "<<rectangle;
         break;
     }
-
+                
     default:
     {
         cout << "Invalid Operator!";

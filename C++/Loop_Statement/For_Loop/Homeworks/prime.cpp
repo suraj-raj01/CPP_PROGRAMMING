@@ -7,14 +7,12 @@ int main()
     int n, k, count = 0;
     cout << "Enter the number: ";
     cin >> n;
-    k = n;
-    for (int i = k; k >= 1; i--)
+    for (int i = n; i >= 1; i--)
     {
-        if (n % k == 0)
+        if (n % i == 0)
         {
             count++;
         }
-        k--;
     }
     if (count == 2)
     {
