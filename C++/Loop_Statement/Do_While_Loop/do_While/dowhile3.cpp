@@ -1,3 +1,5 @@
+// WAP to print even number from user input to 0.
+
 #include <iostream>
 using namespace std;
 int main()

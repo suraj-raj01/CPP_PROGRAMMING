@@ -1,3 +1,5 @@
+// WAP to print gretest between three numbers.
+
 #include<iostream>
 using namespace std;
 int main(){

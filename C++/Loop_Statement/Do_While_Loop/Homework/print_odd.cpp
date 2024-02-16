@@ -16,3 +16,10 @@ int main()
         n--;
     } while (n >= 1);
 }
+
+/*
+
+Enter the number: 16
+15      13      11      9       7       5       3       1
+
+*/

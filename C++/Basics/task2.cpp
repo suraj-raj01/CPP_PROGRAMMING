@@ -9,7 +9,7 @@
 //     cout << "Before swapping: " << endl;
 //     cout << "a = " << a << endl;
 //     cout << "b = " << b << endl;
-    
+
 //     //swapping
 //     int temp = a;
 //     a = b;
@@ -23,31 +23,19 @@
 
 // =======another way==============
 
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-        cout<<"before swapping"<<endl;
+int main()
+{
+    cout << "before swapping" << endl;
     int a = 10, b = 20;
-    cout<<"a = "<<a<<endl;
-    cout<<"b = "<<b<<endl;
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;
 
-    a = a+b;
-    b = a-b;
-    a = a-b;
-    cout<<"after swapping"<<endl;
-    cout<<"a = "<<a<<endl;
-    cout<<"b = "<<b;
+    a = a + b;
+    b = a - b;
+    a = a - b;
+    cout << "after swapping" << endl;
+    cout << "a = " << a << endl;
+    cout << "b = " << b;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

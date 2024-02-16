@@ -6,7 +6,7 @@ int main()
     cout << "Enter the number: ";
     cin >> n;
 prnt:
-    cout << n << " * " << a << " = " << a * n<<endl;
+    cout << n << " * " << a << " = " << a * n << endl;
     a++;
     if (a <= 10)
     {

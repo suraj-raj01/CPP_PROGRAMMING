@@ -1,3 +1,5 @@
+// WAP to print first, second, third division and fail according to their marks.
+
 #include<iostream>
 using namespace std;
 int main(){

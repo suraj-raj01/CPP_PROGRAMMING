@@ -8,8 +8,8 @@ int main(){
     cin>>n;
     f = n/100;
     t = n%100;
-    l = t%10;
     m = t/10;
+    l = t%10;
     cout<<n<<endl;
     cout<<"Sum of "<<n<<" is: "<<f+m+l<<endl;
     cout<<"sum is: "<<n%100%10+n%100/10+n/100;
