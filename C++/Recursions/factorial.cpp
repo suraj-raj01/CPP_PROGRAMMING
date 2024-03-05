@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
 
-void fact(int n)
+int fact(int n)
 {
-    if(n == 1)
+    if(n > 1)
     {
-        return;
+        return n*fact(n-1);
     }
-
+    return 1;
 }
 
 int main()
@@ -15,5 +15,5 @@ int main()
     int n;
     cout<<"Enter the number: ";
     cin>>n;
-    fact(n);
+    cout<<"Factorial is: "<<fact(n);
 }
