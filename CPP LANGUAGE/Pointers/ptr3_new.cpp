@@ -17,7 +17,7 @@ int main()
         cout<<p[i]<<"\t";
     }
     delete []p;
-// p=NULL;
+    // p=NULL;
     cout<<"\nGarbage Value: ";
     for(int i=0; i<n; ++i)
     {

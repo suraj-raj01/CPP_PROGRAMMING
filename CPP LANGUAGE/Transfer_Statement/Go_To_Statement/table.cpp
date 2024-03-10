@@ -1,3 +1,5 @@
+// WAP to print table of a number using go to statement.
+
 #include<iostream>
 using namespace std;
 int main(){

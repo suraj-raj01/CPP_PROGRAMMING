@@ -1,3 +1,7 @@
+/*
+Pointer:- Pointer is the variable that store address of another variable.
+*/
+
 #include<iostream>
 using namespace std;
 int main()

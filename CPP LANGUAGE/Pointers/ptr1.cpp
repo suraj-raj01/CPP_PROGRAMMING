@@ -1,6 +1,6 @@
 // Reference Variable.
 
-/*
+
 #include<iostream>
 using namespace std;
 int main()
@@ -17,7 +17,6 @@ int main()
     cout<<"Address of k = "<<&k<<endl;
     cout<<"Value at k = "<<k<<endl;
 }
-*/
 
 // Pointer variable.
 
