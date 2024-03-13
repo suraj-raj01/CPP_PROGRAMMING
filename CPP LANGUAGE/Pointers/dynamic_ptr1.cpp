@@ -31,5 +31,7 @@ int main()
             cout<<arr[i][j]<<"\t";
         }
         cout<<"\n";
+        delete []arr;
+        arr = NULL;
     }
 }

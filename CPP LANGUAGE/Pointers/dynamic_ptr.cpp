@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int r,c;
+    int r;
     cout<<"Enter the number of row: ";
     cin>>r;
     int **arr = new int*[r];
@@ -29,5 +29,7 @@ int main()
             cout<<arr[i][j]<<"\t";
         }
         cout<<"\n";
+        delete []arr;
+        arr = NULL;
     }
 }
