@@ -1,2 +1,2 @@
-        delete []arr;
-        arr =   NULL;
+arr;
+        arr = NULL;
