@@ -6,6 +6,9 @@ int main()
     char str[20];
     cout << "Enter your name: ";
     cin >> str;
-    cout<<"length: "<<strlen(str)<<endl;
-    cout<<"Reverse String "<<strrev(str);
+    int n = strlen(str);
+    for(int i=n-1; i>=0; i--)
+    {
+    cout<<str[i];
+    }
 }
