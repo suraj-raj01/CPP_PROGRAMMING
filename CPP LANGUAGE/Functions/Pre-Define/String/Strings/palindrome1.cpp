@@ -11,10 +11,10 @@ int main()
     strrev(c1);
     if(strcmp(c1,c2) == 0)
     {
-        cout<<"Yes";
+        cout<<"Palindrome";
     }
     else{
-        cout<<"Not!";
+        cout<<"Not Palindrome!";
     }
 }
 

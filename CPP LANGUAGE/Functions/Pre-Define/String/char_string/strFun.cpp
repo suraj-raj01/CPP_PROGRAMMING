@@ -43,7 +43,7 @@ int main()
     // strcpy() -> it is copy data from one to another or overrite.
     char u[20] = "apple";
     char v[20] = "banana";
-    cout<<"copy data from b to a: "<<strcpy(u,v)<<endl;
+    cout<<"copy data from v to u: "<<strcpy(u,v)<<endl;
 
     // strcmp() -> it is used to compare between two string.
     char pwd1[20];

@@ -1,3 +1,5 @@
+// WAP to generate Lowercase String to UpperCase String
+
 #include<iostream>
 using namespace std;
 #include<cstring>

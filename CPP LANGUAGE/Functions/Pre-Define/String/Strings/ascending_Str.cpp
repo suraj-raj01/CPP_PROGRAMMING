@@ -5,22 +5,21 @@ using namespace std;
 #include<cstring>
 int main()
 {
-    char c[10],ch;
-    cout<<"Enter the name: ";
-    cin>>c;
-    char temp[10];
-    int len = strlen(c);
+    char ch[20],count;
+    cout<<"Enter your String: ";
+    cin>>ch;
+    int len = strlen(ch);
     for(int i=0; i<len; i++)
     {
-        for(int j=0; j<len-1; j++)
+        for(int j=0; j<len-1; ++j)
         {
-            if(c[j]>c[j+1])
+            if(ch[j]>ch[j+1])
             {
-                ch = c[j];
-                c[j] = c[j+1];
-                c[j+1] = ch;
+                count = ch[j+1];
+                ch[j+1] = ch[j];
+                ch[j] = count;
             }
         }
     }
-    cout<<c;
+    cout<<ch;
 }

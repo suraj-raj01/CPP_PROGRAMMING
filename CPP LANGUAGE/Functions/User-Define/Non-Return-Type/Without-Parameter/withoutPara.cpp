@@ -4,8 +4,11 @@
 using namespace std;
 void sum()
 {
-    int n=10;
-    int m=20;
+    int n,m;
+    cout<<"Enter first number: ";
+    cin>>n;
+    cout<<"Enter second number: ";
+    cin>>m;
     cout<<"sum is: "<<m+n;
 }
 int main()
