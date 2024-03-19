@@ -17,7 +17,8 @@ int main()
     cout<<"Enter your name: ";
     cin.getline (e,10);
     cout<<"name = "<<e<<endl;
-
+    cout<<sizeof(e)<<endl;
+    
     char f[] = "surajkumarrajak";
     int size = sizeof(f)/sizeof(f[0]);
     cout<<f<<"\n";

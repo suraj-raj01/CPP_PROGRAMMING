@@ -1,16 +1,27 @@
 // WAP to print table 2-10 of an array.
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
-    int arr[8] = {2,3,4,5,6,7,8,9};
-    for(int r=0; r<8; ++r)
+    int n;
+    cout << "Enter the size of array: ";
+    cin >> n;
+    int arr[n];
+    int size = sizeof(arr) / sizeof(arr[0]);
+    // input
+
+    for (int i = 0; i < size; ++i)
     {
-        for(int i=1; i<=10; i++)
+        cin >> arr[i];
+    }
+
+    for (int r = 0; r < size; ++r)
+    {
+        for (int i = 1; i <= 10; i++)
         {
-            cout<<arr[r]<<" * "<<i<<" : "<<arr[r]*i<<"\n";
+            cout << arr[r] << " * " << i << " : " << arr[r] * i << "\n";
         }
-    cout<<"\n";
+        cout << "\n";
     }
 }

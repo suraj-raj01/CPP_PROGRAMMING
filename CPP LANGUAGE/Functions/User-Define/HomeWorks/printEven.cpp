@@ -7,7 +7,7 @@ void print_even(int start, int end)
 {
     for(start; start<=end; ++start)
     {
-        if(start%2 != 0)
+        if(start%2 == 0)
         {
             cout<<start;
             if(start<end-1)

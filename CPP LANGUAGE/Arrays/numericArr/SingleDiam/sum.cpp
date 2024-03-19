@@ -3,7 +3,10 @@
 using namespace std;
 int main()
 {
-    int a[5];
+    int n;
+    cout<<"Enter the size of array: ";
+    cin>>n;
+    int a[n];
     cout << "Enter the value: ";
     int k = sizeof(a) / sizeof(a[0]);
     int sum = 0;

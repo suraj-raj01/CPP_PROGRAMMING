@@ -7,7 +7,7 @@ int main()
     cout << "Stored value   ";
     for (int i = 0; i < k; i++)
     {
-        if(a[i]%2==0)
+        if(a[i]%2!=0)
         {
             cout << a[i] << "\t";
         }

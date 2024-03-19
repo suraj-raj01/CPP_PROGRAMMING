@@ -14,11 +14,11 @@ int main()
     }
     for (int i = 0; i < k; i++)
     {
-        if (s < a[i])
+        if (s > a[i])
         {
             s = a[i];
         }
     }
-    cout << "Greatest number: " << s << "\t";
+    cout << "Lowest number: " << s << "\t";
     return 0;
 }

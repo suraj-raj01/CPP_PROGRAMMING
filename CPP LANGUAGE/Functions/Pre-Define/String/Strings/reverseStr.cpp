@@ -9,8 +9,8 @@ int main()
     cout << "Enter your name: ";
     cin >> str;
     int n = strlen(str);
-    for(int i=n-1; i>=0; i--)
+    for (int i = n; i >= 0; i--)
     {
-    cout<<str[i];
+        cout << str[i];
     }
 }

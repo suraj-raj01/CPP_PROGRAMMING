@@ -1,23 +1,23 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-#include<cstring>
+#include <cstring>
 int main()
 {
     char c1[10];
     char c2[10];
-    cout<<"Enter name: ";
-    cin>>c1;
-    strcpy(c2,c1);
+    cout << "Enter name: ";
+    cin >> c1;
+    strcpy(c2, c1);
     strrev(c1);
-    if(stricmp(c1,c2) == 0)
+    if (stricmp(c1, c2) == 0)
     {
-        cout<<"Palindrome";
+        cout << "Palindrome";
     }
-    else{
-        cout<<"Not Palindrome!";
+    else
+    {
+        cout << "Not Palindrome!";
     }
 }
-
 
 /*
 
