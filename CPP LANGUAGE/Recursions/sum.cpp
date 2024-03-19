@@ -7,10 +7,10 @@ int sum(int n)
     {
         return 1;
     }
-    
-    int sumNm1 = sum(n-1);
-    int sum = n + sumNm1;
-    return sum;
+    // int sumNm1 = sum(n-1);
+    // int sum = n + sumNm1;
+    // return sum;
+    return n+sum(n-1);
 }
 
 int main()

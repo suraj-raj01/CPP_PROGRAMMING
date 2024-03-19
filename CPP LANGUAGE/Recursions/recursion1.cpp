@@ -11,7 +11,7 @@ void rec(int n)
     //cout<<n<<"  ";
     rec(n-1);
     // Tail Recursion
-    cout<<n<<"  ";
+    cout<<n<<" ";
 }
 
 int main()
