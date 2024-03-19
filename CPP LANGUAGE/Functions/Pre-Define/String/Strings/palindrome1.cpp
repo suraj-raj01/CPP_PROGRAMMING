@@ -9,7 +9,7 @@ int main()
     cin>>c1;
     strcpy(c2,c1);
     strrev(c1);
-    if(strcmp(c1,c2) == 0)
+    if(stricmp(c1,c2) == 0)
     {
         cout<<"Palindrome";
     }

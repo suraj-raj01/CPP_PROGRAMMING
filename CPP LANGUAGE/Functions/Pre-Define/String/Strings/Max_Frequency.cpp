@@ -5,11 +5,10 @@ using namespace std;
 #include<cstring>
 int main()
 {
-   char ch[20];
+   char ch[20],t;
    cout<<"Enter your name: ";
    cin>>ch;
    int p = 0;
-   char t;
    int len = strlen(ch);
    for(int i=0; i<len; ++i)
    {
@@ -28,5 +27,5 @@ int main()
       }
    }
    cout<<"Maximum Frequency Character: "<<t<<"\n";
-   cout<<"Letter come "<<p<<"Times";
+   cout<<"Letter came "<<p<<" Times";
 }
