@@ -11,8 +11,9 @@ int pwr(int b, int p)
     {
         return 1;
     }
-    int result = b*pwr(b,p-1);
-    return result;
+    // int result = b*pwr(b,p-1);
+    // return result;
+    return b*pwr(b,p-1);
 }
 
 int main()

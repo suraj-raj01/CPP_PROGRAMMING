@@ -1,23 +1,25 @@
-// Fibonacci Series
+// WAP of Fibonacci Series.
 
 #include<iostream>
 using namespace std;
 
-int fibonacci(int n)
+int fib(int n)
 {
-    if(n==0){
+    if(n==0)
+    {
         return 0;
     }
-    if(n==1){
+    if(n==1)
+    {
         return 1;
     }
-    return fibonacci(n-1)+fibonacci(n-2);
+    return fib(n-1) +  fib(n-2);
 }
 
 int main()
 {
     int n;
-    cout<<"Enter the number: ";
+    cout<<"Enter the number of terms: ";
     cin>>n;
-    cout<<fibonacci(n);
+    cout<<fib(n);
 }

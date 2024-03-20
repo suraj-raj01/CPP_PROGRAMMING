@@ -5,22 +5,22 @@ using namespace std;
 #include<cstring>
 int main()
 {
-    char c[10];
+    char arr[10];
     cout<<"Enter your name: ";
-    cin>>c;
-    int n = strlen(c);
-    for(int i=0; i<n; ++i)
+    cin>>arr;
+    int len = strlen(arr);
+    for(int i=0; i<len; ++i)
     {
-        if(c[i]>=65 && c[i]<=90)
+        if(arr[i]>=65 && arr[i]<=90)
         {
-            c[i] = c[i]+32;
+            arr[i] = arr[i]+32;
         }
-        else if(c[i]>=97 && c[i]<=122)
+        else if(arr[i]>=97 && arr[i]<=122)
         {
-            c[i] = c[i]-32;
+            arr[i] = arr[i]-32;
         }
     }
-    cout<<c;
+    cout<<arr;
 }
 
 
