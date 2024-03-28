@@ -5,9 +5,9 @@ using namespace std;
 int main()
 {
     int arr[5] = {2,45,7,8,6};
-    cout<<"Value of 0 Loacation: "<<0[arr]<<endl;
-    cout<<"Similarly Value of 0 loaction: "<<arr[0]<<endl;
-    cout<<"Similarly Value of 0 loaction: "<<*(0+arr)<<endl;
+    cout<<"Value at 0 Loacation: "<<0[arr]<<endl;
+    cout<<"Similarly Value at 0 loaction: "<<arr[0]<<endl;
+    cout<<"Similarly Value at 0 loaction: "<<*(0+arr)<<endl;
     cout<<arr<<endl; //Address of 0 loaction
     cout<<&arr<<endl;  //Address of 0 loacation
 
@@ -29,12 +29,12 @@ int main()
     double *d;
     char g;
     cout<<"Size of g = "<<sizeof(g)<<endl;
-    cout<<"Pointer take 8 byte address of g "<<sizeof(&g)<<endl;
+    cout<<"Pointer take 4 byte address of g "<<sizeof(&g)<<endl;
     cout<<"Value of array name *c "<<sizeof(c)<<endl;
     cout<<"Value of array name c "<<sizeof(*c)<<endl;
-    cout<<"Pointer take 8 byte address of c "<<sizeof(&c)<<endl;
-    cout<<"Pointer take 8 byte address of k "<<sizeof(&k)<<endl;
-    cout<<"pointer take 8 byte address of d "<<sizeof(&d)<<endl;
+    cout<<"Pointer take 4 byte address of c "<<sizeof(&c)<<endl;
+    cout<<"Pointer take 4 byte address of k "<<sizeof(&k)<<endl;
+    cout<<"pointer take 4 byte address of d "<<sizeof(&d)<<endl;
     cout<<"Value of array name c "<<sizeof(&arr)<<endl;
     cout<<"Value of 0 location "<<*arr<<endl;
     cout<<"updated value of 0 location "<<*arr+100<<endl;

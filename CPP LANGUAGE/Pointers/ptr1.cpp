@@ -13,7 +13,7 @@ int main()
     cout<<"Value at j = "<<j<<endl;
     j++;
     cout<<"Value at i = "<<i<<endl;
-    int k=i;
+    int &k=i;
     cout<<"Address of k = "<<&k<<endl;
     cout<<"Value at k = "<<k<<endl;
 }
