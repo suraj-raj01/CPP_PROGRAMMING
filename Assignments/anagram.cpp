@@ -24,7 +24,7 @@ int main()
             }
         }
     }
-    if(counter == c1)
+    if(counter == c2)
     {
         cout<<"Anagram";
     }
