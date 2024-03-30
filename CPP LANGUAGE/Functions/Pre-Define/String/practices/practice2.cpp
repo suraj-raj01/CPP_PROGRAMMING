@@ -1,4 +1,3 @@
-
 // input: "all the best"
 // output: "all@the@best"
 #include <iostream>
@@ -13,12 +12,12 @@ int main()
         if (ch[j] == ' ')
         {
             // cout<<"@";
-            ch[j] = '@';
+            ch[j] = '~';
         }
         // else
         // {
         //     cout << ch[j];
         // }
     }
-    cout<<ch;
+    cout<<strupr(ch);
 }

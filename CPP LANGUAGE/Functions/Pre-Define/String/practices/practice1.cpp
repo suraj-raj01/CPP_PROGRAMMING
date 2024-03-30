@@ -6,7 +6,7 @@ using namespace std;
 #include <cstring>
 int main()
 {
-    char ch[] = "all the best";
+    char ch[] = "All The Best";
     int size = strlen(ch);
 
     for (int i = 0; i < size; i++)
