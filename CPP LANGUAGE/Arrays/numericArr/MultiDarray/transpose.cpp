@@ -8,8 +8,9 @@ int main()
     cout << "Enter the number of row: ";
     cin >> r;
     cout << "Enter the number of col: ";
-    cin >> r;
+    cin >> c;
     int arr1[r][c];
+    int transp[r][c];
     // input
     for (int i = 0; i < r; i++)
     {
@@ -18,12 +19,22 @@ int main()
             cin>>arr1[i][j];
         }
     }
-    // output
-    for (int i = 0; i < r; i++)
+
+    // Transpose Matrix
+    for(int i=0; i<c; i++)
     {
-        for (int j = 0; j < c; j++)
+        for(int j=0; j<r; j++)
         {
-            cout<<arr1[i][j]<<"\t";
+            transp[j][i] = arr1[i][j];
+        }
+    }
+
+    // output
+    for (int i = 0; i < c; i++)
+    {
+        for (int j = 0; j < r; j++)
+        {
+            cout<<transp[i][j]<<"\t";
         }
         cout<<"\n";
     }
