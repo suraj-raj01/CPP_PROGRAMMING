@@ -6,7 +6,7 @@ int main(){
     int a,b,c;
     cout<<"enter three number: ";
     cin>>a>>b>>c;
-    if(a==b || a==c){
+    if(a==b && a==c){
         cout<<"numbers are same";
     }
     else if(a>b && a>c){

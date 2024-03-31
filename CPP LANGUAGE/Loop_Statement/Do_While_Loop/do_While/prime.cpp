@@ -4,18 +4,18 @@
 using namespace std;
 int main()
 {
-    int n, k, count = 0;
+    int n, t, count = 0;
     cout << "Enter the number: ";
     cin >> n;
-    k = n;
+    t = n;
     do
     {
-        if (n % k == 0)
+        if (n % t == 0)
         {
             count++;
         }
-        k--;
-    } while (k >= 1);
+        t--;
+    } while (t >= 1);
 
     if (count == 2)
     {
