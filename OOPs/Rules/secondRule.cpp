@@ -1,6 +1,6 @@
 /*
 Second Rule:-
-Function declare inside a class but define outsite of a class
+Function declare inside a class but define outsite of a class.
 */
 
 #include<iostream>
@@ -11,7 +11,7 @@ class show{
     public:void sum(int a, int b);
 };
 
-void show::sum(int a, int b)
+void show::sum(int a, int b)  // scope resolution Operator -> ::
 {
     c=a+b;
     cout<<c;
