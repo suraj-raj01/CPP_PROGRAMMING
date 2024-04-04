@@ -15,6 +15,7 @@ class MultiFun{
             cout<<n<<" * "<<i<<" : "<<n*i<<endl;
         }
     }
+    
     void factorial(int n)
     {
        for(i=1; i<=n; i++)
