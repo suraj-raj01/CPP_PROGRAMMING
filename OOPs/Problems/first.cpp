@@ -6,11 +6,11 @@
 using namespace std;
 
 class MultiFun{
-    int i,fact=1;
+
     public:
     void table(int n)
     {
-        for(i=1; i<=10; i++)
+        for(int i=1; i<=10; i++)
         {
             cout<<n<<" * "<<i<<" : "<<n*i<<endl;
         }
@@ -18,7 +18,8 @@ class MultiFun{
     
     void factorial(int n)
     {
-       for(i=1; i<=n; i++)
+       int fact  = 1;
+       for(int i=2; i<=n; i++)
        {
         fact *=i;
        }
