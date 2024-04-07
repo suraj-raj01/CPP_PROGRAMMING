@@ -30,7 +30,7 @@ int main()
     cin>>a;
     cout<<"Enter the second number: ";
     cin>>b;
-    cout<<"Enter the Operator\n1-> add\n2-> sub\n3-> mul\n4-> div\n";
+    cout<<"Enter the Operator\n1 -> add\n2 -> sub\n3 -> mul\n4 -> div\n";
     cin>>opr;
     switch (opr)
     {

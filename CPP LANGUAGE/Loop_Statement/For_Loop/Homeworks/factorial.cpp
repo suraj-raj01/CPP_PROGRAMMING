@@ -8,7 +8,7 @@ int main()
     cout<<"Enter the number: ";
     cin>>n;
     fact=1;
-    for(int i=1; i<=n; i++){
+    for(int i=n; i>=2; --i){
         fact=fact*i;
     }
     cout<<"factorial is: "<<fact;

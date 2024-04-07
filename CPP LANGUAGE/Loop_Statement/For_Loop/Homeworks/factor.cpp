@@ -8,7 +8,7 @@ int main()
     cout<<"Enter the number: ";
     cin>>n;
     cout<<"The factor of "<<n<<" = ";
-    for(int i=1; i<=n; i++)
+    for(int i=1; i<=n/2; i++)
     {
         if(n%i == 0)
         {

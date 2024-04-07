@@ -1,25 +1,26 @@
 // Write a Program to check prime or not.
 
-#include <iostream>
+
+#include<iostream>
 using namespace std;
 int main()
 {
-    int n, k, count = 0;
-    cout << "Enter the number: ";
-    cin >> n;
-    for (int i = n; i >= 1; i--)
+    int n,count = 0;
+    cout<<"Enter the number: ";
+    cin>>n;
+    for(int i=n; i>=1; --i)
     {
-        if (n % i == 0)
+        if(n%i==0)
         {
             count++;
         }
     }
-    if (count == 2)
+    if(count==2)
     {
-        cout << "prime";
+        cout<<"Prime Number";
     }
-    else
-    {
-        cout << "not prime";
+    else{
+        cout<<"Not a Prime!!";
     }
 }
+

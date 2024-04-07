@@ -21,6 +21,14 @@ class class2{
     }
 };
 
+class class3{
+    public:
+    void show()
+    {
+        cout<<"Class - 2";
+    }
+};
+
 int main()
 {
    class1 c1;
@@ -30,4 +38,9 @@ int main()
 
    class2 c2;
    c2.show();
+
+   cout<<"\n";
+
+   class3 c3;
+   c3.show();
 }
