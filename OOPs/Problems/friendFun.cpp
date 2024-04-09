@@ -7,7 +7,7 @@ class Main{
     {
         cout<<"Main Class\n";
     }
-    friend void cybrom(Main &t); // it can be public and private
+    friend void cybrom(Main &t); // it can be public or private
 };
    void cybrom(Main &t)
    {
