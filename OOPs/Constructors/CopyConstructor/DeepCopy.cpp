@@ -31,7 +31,7 @@ Main(Main &obj)
     void show()
     {
         cout<<"a : "<<a<<endl;
-        cout<<"b : "<<*p<<endl;
+        cout<<"p : "<<*p<<endl;
     }
 };
 
