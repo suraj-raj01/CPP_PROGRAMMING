@@ -1,9 +1,9 @@
 /*
 Copy Constructor:-
 a) Shallow Copy
-b) Deep Copy
    i) implicitly assignment copy Constructor
    ii) Calling copy Constructor explicitly
+b) Deep Copy
 */
 
 #include<iostream>

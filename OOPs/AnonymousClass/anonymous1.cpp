@@ -7,12 +7,12 @@ class{
     public:
     void setData(int a,int b)
     {
-        this -> x = a;
-        this -> y = b;
+        x = a;
+        y = b;
     }
     void getData()
     {
-        cout<<"sum is: "<<this -> x+y;
+        cout<<"sum is: "<<x+y;
     }
 }obj1,obj2;
 
