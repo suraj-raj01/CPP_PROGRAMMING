@@ -2,10 +2,13 @@
 using namespace std;
 
 class Main{
+    int x,y;
     public:
     Main(int a, int b)
     {
-        cout<<"Product is : "<<a*b<<endl;
+        x=a;
+        y=b;
+        cout<<"Product is : "<<x*y<<endl;
     }
     void show()
     {
@@ -21,5 +24,5 @@ int main()
    cout<<"Enter the second number ";
    cin>>b;
    Main obj(a,b);
-   obj.show();
+//    obj.show();
 }

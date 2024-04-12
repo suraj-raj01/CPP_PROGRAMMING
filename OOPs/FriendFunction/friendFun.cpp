@@ -19,6 +19,10 @@ class Main{
 
 int main()
 {
+   Main ob;
+   cybrom(ob);
+   /*
    Main t;
    cybrom(t);
+   */
 }

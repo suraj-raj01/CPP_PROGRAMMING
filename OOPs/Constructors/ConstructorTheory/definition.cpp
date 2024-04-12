@@ -29,6 +29,11 @@ Note : By-default the access modifier of constructor is public.
     attributes by passing arguments.
 
 3). Copy Constructor:-
+    The copy constructor in C++ is used to copy data from one object to another. 
+    a) Shallow Copy 
+       i) Implicitly assignment copy Constructor.
+      ii) Calling copy constructor explicitly.
+    b) Deep Copy
 
 
 Constructor OverLoading:-

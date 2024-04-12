@@ -8,13 +8,14 @@ class Friend{
     int salary;
     public:void info()
     {
-       cout<<"Main Class";
+       cout<<"information\n";
     }
     friend void info(Friend &obj);
 };
 
     void info(Friend &obj)
     {
+         obj.info();
          obj.name = "SURAJ";
          obj.salary = 30000;
          obj.age = 25;

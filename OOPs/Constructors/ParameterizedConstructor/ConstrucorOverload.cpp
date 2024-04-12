@@ -1,3 +1,8 @@
+/*
+Constructor Overloading:-
+Constructor can be overload in a similar way as function overloading. 
+*/
+
 #include<iostream>
 using namespace std;
 
@@ -9,7 +14,7 @@ class Main{
     }
     Main()
     {
-        cout<<"This is the parameterized Constructor\n";
+        cout<<"This is the Constructor Overloading\n";
     }
 };
 

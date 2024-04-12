@@ -7,7 +7,7 @@ class base{
     public: static int n;
     public: static void show()
     {
-        cout<<"Static method";
+        cout<<"Static method\n";
     }
 };
 
@@ -16,5 +16,5 @@ int main()
 {
     base b;
     base::show();
-    b.n;
+    cout<<b.n;
 }

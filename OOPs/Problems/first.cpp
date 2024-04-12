@@ -30,7 +30,7 @@ class MultiFun{
 int main()
 {
    MultiFun obj;
-    int n;
+   int n;
    cout<<"Enter the number: ";
    cin>>n;
    obj.table(n);
