@@ -12,7 +12,7 @@ There are 4 Pillers of C++ (OOPs).
 
 2) Abstractions:-
    Encapsulation leads abstraction and with the help of it, we can only display
-   or access the necessary desire function & hidden teh rest of things.
+   or access the necessary desire function & hidden the rest of things.
 
 3) Inheritance:-
    Inheritance is one of the key feature of Object Oriented Programming in C++
@@ -29,7 +29,7 @@ There are 4 Pillers of C++ (OOPs).
 
 
 4) PolymorPhism:-
-   The world "Polymorphism" means having many forms. In simple words we can 
+   The wor d "Polymorphism" means having many forms. In simple words we can 
    define Polymorphism as the ability of a message to be displyed in more 
    than one form.
    
