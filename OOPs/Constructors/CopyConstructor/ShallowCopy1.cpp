@@ -13,6 +13,7 @@ class Main{
     Main(int x, int y)
     {
        a = x;
+       p = new int;
        p = &y;
     }
     void update()
@@ -30,8 +31,10 @@ class Main{
 int main()
 {
   Main obj(20,10);
-  obj.show();
   Main obj1(obj);
+  obj.show();
+  obj1.show();
+//   cout<<"After Updation"<<endl;
   obj1.update();
   obj1.show();
   obj.show();

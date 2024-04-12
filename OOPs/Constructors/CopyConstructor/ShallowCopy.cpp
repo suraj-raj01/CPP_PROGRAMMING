@@ -37,6 +37,7 @@ int main()
    Main obj(20,30);
    Main obj1(obj);   // Main obj1 = obj;
    obj1.show();
+   obj.show();
 
 // Implicitly Assignement copy Constructor
    Main z1;

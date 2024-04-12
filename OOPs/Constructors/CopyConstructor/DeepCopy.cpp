@@ -11,7 +11,7 @@ class Main{
        p=0;
     }
 
-Main(Main &obj)
+Main(Main &obj)  // own copy or deep copy
 {
     a=obj.a;
     p=new int;
@@ -21,6 +21,7 @@ Main(Main &obj)
     Main(int x, int y)
     {
        a = x;
+    //    p = new int;
        p = &y;
     }
     void update()
@@ -39,7 +40,7 @@ int main()
 {
   Main obj(20,10);
   obj.show();
-  Main obj1(obj);
+  Main obj1(obj); // shallow copy
   obj1.update();
   obj1.show();
   obj.show();
