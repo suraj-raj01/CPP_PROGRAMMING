@@ -24,14 +24,15 @@ class Main{
     void show()
     {
         cout<<"a : "<<a<<endl;
-        cout<<"b : "<<*p<<endl;
+        cout<<"p : "<<*p<<endl;
     }
 };
 
 int main()
 {
   Main obj(20,10);
-  Main obj1(obj);
+  Main obj1(obj);  // copy constructor explicitly 
+  // Main obj1 = obj;  // copy constructor implicitly
   obj.show();
   obj1.show();
 //   cout<<"After Updation"<<endl;
