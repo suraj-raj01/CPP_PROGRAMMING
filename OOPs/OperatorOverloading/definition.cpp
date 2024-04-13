@@ -15,13 +15,13 @@ class Main{
     int a = 0;
     public:void operator ++()
     {
-        a = a+1;
-        cout<<a<<"\n";
+        a = a+2;
+        cout<<"a : "<<a<<"\n";
     }
     void operator --()
     {
         a = a-1;
-        cout<<a<<"\n";
+        cout<<"a : "<<a<<"\n";
     }
 };
 
