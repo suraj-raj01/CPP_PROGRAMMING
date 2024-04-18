@@ -15,14 +15,14 @@ class rbi{
 class sbi:public rbi{
     public:void loan()
     {
-        cout<<"10%\n";
+        cout<<"SBI give 10%\n";
     }
 };
 class pnb:public rbi
 {
     public:void loan()
     {
-        cout<<"12%\n";
+        cout<<"Vivek 12%\n";
     }
 };
 class axis:public rbi{

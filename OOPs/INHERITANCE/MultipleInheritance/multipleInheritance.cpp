@@ -11,7 +11,7 @@ using namespace std;
 class tenth{
    public:void result()
    {
-    cout<<"firs div";
+    cout<<"firs div\n";
    };
 };
 class twelve
@@ -21,7 +21,15 @@ class twelve
         cout<<"second div\n";
     };
 };
-class friends: public tenth, public twelve
+class graduate
+{
+    public:
+    void grad()
+    {
+        cout<<"Graduate\n";
+    }
+};
+class friends: public tenth, public twelve, public graduate
 {
    public: void show()
    {
@@ -32,5 +40,7 @@ int main()
 {
  friends f;
  f.show();
+ f.result();
  f.sec();
+ f.grad();
 }
