@@ -1,7 +1,7 @@
 /*
 Heirarchical Inheritance:-
-In a heirarchical inheritance there is only one root class but multiple node 
-classes and each child class inherits the properties of root class
+In a heirarchical inheritance there is only one root(parent) class but multiple node 
+classes and each node(child) class inherits the properties of root or parent class.
 */
 
 #include<iostream>
