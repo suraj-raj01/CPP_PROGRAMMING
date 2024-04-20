@@ -1,5 +1,5 @@
 /*
-Hybrid inheritance is the combinataion is the different inheritance.always we create an object 
+Hybrid inheritance is the combinataion of the different inheritance.always we create an object 
 of child class and we can make a class as a virtual when we inherit the parent class
 */
 

@@ -1,6 +1,6 @@
 /*
 Single Inheritance:-
-In a Single Inheritance we have only two classes the first classis called parent class
+In a Single Inheritance we have only two classes the first class is called parent class
 and second class is called child class and the cild class inherits the properties of 
 parent class.
 */

@@ -22,20 +22,20 @@ class pnb:public rbi
 {
     public:void loan()
     {
-        cout<<"Vivek 12%\n";
+        cout<<"PNB give 12%\n";
     }
 };
 class axis:public rbi{
     public:void loan()
     {
-        cout<<"15%\n";
+        cout<<"AXIS give 15%\n";
     }
 };
 int main()
 {
-    sbi s;
-    s.rbifun();
-    s.loan();
+    sbi S;
+    S.rbifun();
+    S.loan();
     pnb p;
     p.rbifun();
     p.loan();
