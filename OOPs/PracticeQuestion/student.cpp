@@ -46,6 +46,7 @@ public:
             cout<<marks[i]<<"\t";
         }
         cout << "\nTotal " << TotalMarks << endl;
+        cout<<"Percentage: "<<float(TotalMarks/5)<<endl;
     }
 };
 
@@ -55,9 +56,9 @@ int main()
     int arr[5];
     cout<<"Enter the student name: ";
     cin>>s;
+    cout<<"Enter 5 marks \n";
     for(int i=0; i<5; i++)
     {
-        cout<<"Enter marks ";
         cin>>arr[i];
     }
     STUDENT std;
