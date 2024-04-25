@@ -41,7 +41,7 @@ If a class having more than one constructor with different parameters or
 without parameters is called constructor overloading.
 
 Example of Constructor OverLoading:-
-
+*/
 #include<iostream>
 using namespace std;
 
@@ -63,4 +63,3 @@ int main()
    Main obj1;
 }
 
-*/

@@ -1,13 +1,31 @@
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     cout<<"Hello";
+// }
+// class job{
+//     public:
+//     job()
+//     {
+//         cout<<"Default Constructor\n";
+//     }
+// }b;
+
+
 #include<iostream>
 using namespace std;
 int main()
 {
-    cout<<"Hello";
+    cout<<"Main function\n";
 }
-class job{
+class Main{
+    int x,y;
     public:
-    job()
+    Main()
     {
-        cout<<"Default Constructor\n";
+        x=10;
+        y=10;
+        cout<<"Sum is: "<<x+y<<endl;
     }
-}b;
+}obj;

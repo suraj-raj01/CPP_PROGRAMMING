@@ -11,6 +11,7 @@ class{
     public:
     void setVal(int a)
     {
+        // using this pointer keyword
        this -> n = a;  // n = a;
     }
     void printVal()
@@ -21,6 +22,9 @@ class{
 
 int main()
 {
-   obj.setVal(20);
+   int n;
+   cout<<"Enter the number: ";
+   cin>>n;
+   obj.setVal(n);
    obj.printVal();
 }

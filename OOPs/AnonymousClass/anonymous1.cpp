@@ -1,26 +1,23 @@
-
 #include<iostream>
 using namespace std;
 
 class{
-    int x,y;
-    public:
-    void setData(int a,int b)
+    int a,b;
+    public:void setData(int x, int y)
     {
-        x = a;
-        y = b;
+        a=x;
+        b=y;
     }
     void getData()
     {
-        cout<<"sum is: "<<x+y;
+        cout<<"Sum is: "<<a+b;
     }
 }obj1,obj2;
-
 int main()
 {
-    obj1.setData(20,30);
-    obj1.getData();
-    cout<<"\n";
-    obj2.setData(50,60);
-    obj2.getData();
+   obj1.setData(10,20);
+   obj2.setData(20,30);
+   obj1.getData();
+   cout<<"\n";
+   obj2.getData();
 }

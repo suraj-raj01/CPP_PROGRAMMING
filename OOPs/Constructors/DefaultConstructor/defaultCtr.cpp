@@ -22,3 +22,24 @@ int main()
    Main obj;
 //    obj.show();
 }
+
+
+/*
+#include<iostream>
+using namespace std;
+
+class MUL{
+    int x,y;
+    public:
+    MUL()
+    {
+        x=10;
+        y=20;
+        cout<<"mul is: "<<x*y;
+    }
+};
+int main()
+{
+   MUL obj;
+}
+*/

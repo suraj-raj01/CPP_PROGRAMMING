@@ -4,20 +4,13 @@ using namespace std;
 class Main{
     int a;
     int *p;
-    public:Main()
+    public:
+    Main()
     {
        a=0;
        p=new int;
        p=0;
     }
-
-Main(Main &obj)  // own copy or deep copy
-{
-    a=obj.a;
-    p=new int;
-    *p = *(obj.p);
-}
-
     Main(int x, int y)
     {
        a = x;
@@ -39,9 +32,11 @@ Main(Main &obj)  // own copy or deep copy
 int main()
 {
   Main obj(20,10);
+  Main obj1(obj);  // copy constructor explicitly 
+  // Main obj1 = obj;  // copy constructor implicitly
   obj.show();
-  Main obj1(obj); // shallow copy
   obj1.show();
+  // cout<<"After Updation"<<endl;
   obj1.update();
   obj1.show();
   obj.show();

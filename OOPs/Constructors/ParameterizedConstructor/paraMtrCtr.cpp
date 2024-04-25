@@ -24,5 +24,5 @@ int main()
    cout<<"Enter the second number ";
    cin>>b;
    Main obj(a,b);
-//    obj.show();
+   obj.show();
 }

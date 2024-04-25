@@ -11,7 +11,8 @@ using namespace std;
 
 class Main{
     int a,b;
-    public: Main(int x, int y)
+    public: 
+    Main(int x, int y)
     {
         a = x;
         b = y;
@@ -27,7 +28,7 @@ class Main{
     }
     void display()
     {
-        cout<<a;
+        cout<<a<<"\n";
     }
 };
 
@@ -43,5 +44,6 @@ int main()
    Main z1;
    Main z2;
    z2 = z1;
+   z1.display();
    z2.display();
 }

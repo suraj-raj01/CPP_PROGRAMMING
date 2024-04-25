@@ -10,7 +10,6 @@ class base{
         cout<<"Static method\n";
     }
 };
-
 int base::n=20;
 int main()
 {
