@@ -6,7 +6,7 @@ class Friend{
     string name;
     int age;
     int salary;
-    public:void info()
+    void info()
     {
        cout<<"information\n";
     }

@@ -10,15 +10,15 @@ class Main{
     public:
     void show(string s)
     {
-        cout<<s+"Hello!!";
+        cout<<s+"Hello!!\n";
     }
     void show(string s1, string s2)
     {
-        cout<<s1+s2+" Guys,";
+        cout<<s1+s2+" Guys,\n";
     }
     void show()
     {
-        cout<<" How are you?";
+        cout<<"How are you?";
     }
 };
 
