@@ -3,9 +3,8 @@ using namespace std;
 
 class FIB
 {
-    int n=8;
     public:
-    FIB()
+    FIB(int n)
         {
             if(n==0)
         {
@@ -22,5 +21,5 @@ class FIB
 
 int main()
 {
-   FIB f;
+   FIB f(10);
 }
