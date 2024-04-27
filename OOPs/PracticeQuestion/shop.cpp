@@ -7,7 +7,7 @@ DATA MEMBERS:
   PRICE
   TOTAL
   COUNT
-  
+
 MEMBER FUNCTION:
   ADD()
   SHOW()
@@ -25,7 +25,7 @@ class SHOP
   string itemName[10];
   int price[10];
   int total = 0;
-  int count;
+  int count = 0;
 
 public:
   void add(int i_Code[], string i_Name[], int prc[], int itemNum)
