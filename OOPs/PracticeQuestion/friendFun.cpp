@@ -1,29 +1,30 @@
 #include<iostream>
 using namespace std;
-
+class B;
 class A{
   int n=10;
-  friend void cmp1(A &a);
+  friend void cmp(A obj, B obj1);
 };
-void cmp1(A &a)
-{
-    cout<<a.n;
-}
+
 
 class B{
   int m=20;
-  friend void cmp2(B &b);
+  friend void cmp(A obj, B obj1);
 };
-void cmp2(B &b)
+void cmp(A obj, B obj1)
 {
-    cout<<b.m;
+  if(obj.n>obj1.m)
+  {
+    cout<<obj.n;
+  }
+  else{
+    cout<<obj1.m;
+  }
 }
 
 int main()
 {
-  A cm1;
-  cmp1(cm1);
-  cout<<endl;
-  B cm2;
-  cmp2(cm2);
+  A a;
+  B b;
+  cmp(a,b);
 }
