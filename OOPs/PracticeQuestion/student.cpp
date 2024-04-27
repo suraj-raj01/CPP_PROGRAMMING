@@ -17,8 +17,8 @@ class STUDENT
 {
     string sname;
     int marks[5];
-    int total=0;
-    int TotalMarks;
+    float total;
+    int MaxMarks;
 
 public:
     void assign(string n, int m[])
@@ -31,11 +31,16 @@ public:
     }
     void compute()
     {
+        total = 0;
+        MaxMarks = 0;
         for(int i=0; i<5; i++)
         {
             total += marks[i];
+            if(MaxMarks<marks[i])
+            {
+                MaxMarks = marks[i];
+            }
         }
-        TotalMarks = total;
     }
     void display()
     {
@@ -45,8 +50,9 @@ public:
         {
             cout<<marks[i]<<"\t";
         }
-        cout << "\nTotal " << TotalMarks << endl;
-        cout<<"Percentage: "<<float(TotalMarks/5)<<endl;
+        cout << "\nTotal Marks obtained: " << total << endl;
+        cout<<"Maximum: "<<MaxMarks<<endl;
+        cout<<"Percentage: "<<float(total/5)<<endl;
     }
 };
 
