@@ -3,18 +3,19 @@ using namespace std;
 
 class Main
 {
-    int n=0;
+    static int n;
     public:
+    Main()
+    {
+      n++;
+    }
     void show()
     {
-        n++;
-        cout<<"HELLO !!\n";
+       cout<<n;
     }
-    void dis()
-    {
-        cout<<n;
-    }
+
 };
+int Main::n=0;
 
 int main()
 {
@@ -22,10 +23,5 @@ int main()
    Main obj2;
    Main obj3;
    Main obj4;
-   obj1.show();
-   obj2.show();
-   obj3.show();
-   obj4.show();
-   Main a;
-   a.dis();
+  obj4.show();
 }
