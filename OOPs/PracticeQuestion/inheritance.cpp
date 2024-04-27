@@ -23,5 +23,5 @@ int main()
    Main obj2;
    Main obj3;
    Main obj4;
-  obj4.show();
+  obj1.show();
 }

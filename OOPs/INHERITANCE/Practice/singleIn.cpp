@@ -3,7 +3,8 @@ using namespace std;
 
 class RBI
 {
-    public:RBI(int a=0)
+    public:
+    RBI(int a=0)
     {
         cout<<"Enter the number: ";
         cin>>a;
