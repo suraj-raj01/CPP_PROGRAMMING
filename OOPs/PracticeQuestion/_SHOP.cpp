@@ -21,9 +21,9 @@ public:
             cout << "Enter the price: ";
             cin >> price[i];
             int n;
-            cout << "\n=========================\n";
+            cout << "\n=======================\n";
             cout << "Enter 1 for add item\nEnter 0 for Bill: \n";
-            cout << "=========================\n\n";
+            cout << "=======================\n\n";
             cin >> n;
             count++;
             if (n == 1)
@@ -39,12 +39,15 @@ public:
     void show()
     {
         cout << "\n\n";
+        cout<<"======================================\n";
         cout << "ItemCode\tItemName\tPrice\n";
+        cout<<"======================================\n";
         for (int i = 0; i < count; i++)
         {
-            cout << itemCode[i] << "\t\t" << itemName[i] << "\t\t" << price[i] << endl;
+            cout << itemCode[i] << "\t\t " << itemName[i] << "\t\t " << price[i] << endl;
             total += price[i];
         }
+        cout<<"======================================\n";
         cout << "\n"
              << "Total Bill: " << total << endl;
     }
