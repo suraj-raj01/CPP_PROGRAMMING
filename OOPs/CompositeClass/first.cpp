@@ -1,5 +1,5 @@
 /*
-Composite Class:- A class which is having an object of previous class is 
+Composite Class:- A class which is having an object of previous class is
 considered as a composite class.
 */
 
@@ -16,7 +16,7 @@ class faculty{
 class Student{
     // Composite Class
     faculty f;
-    public: 
+    public:
     void show()
     {
         cout<<"Student id: "<<f.id;
@@ -31,30 +31,35 @@ int main()
 }
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-class Faculty{
-    public:int id = 101;
-    public:void display()
+class faculty
+{
+public:
+    int id = 10;
+
+public:
+    void show()
     {
-        cout<<"Faculty have code!!\n";
+        cout << "faculty have code\n";
     }
 };
-class Student{
-    Faculty f;
-    public:void show()
+class student
+{
+    faculty f;
+
+public:
+    void dis()
     {
-       cout<<"Student have Id\n";
-       cout<<"id: "<<f.id;
+        cout << "Student have id: " << f.id;
     }
 };
 
 int main()
 {
-    Faculty f;
-    Student s;
-    f.display();
-    s.show();
+    faculty f;
+    student s;
+    f.show();
+    s.dis();
 }
-

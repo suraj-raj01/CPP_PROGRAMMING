@@ -11,7 +11,8 @@ using namespace std;
 
 class Main{
     int a,b;
-    public: Main(int a, int b)
+    public: 
+    Main(int a, int b)
     {
         this->a = a;
         this->b = b;

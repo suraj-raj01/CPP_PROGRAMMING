@@ -2,7 +2,7 @@
 using namespace std;
 class B;
 class A{
-  int n=10;
+  int n=40;
   friend void cmp(A obj, B obj1);
 };
 

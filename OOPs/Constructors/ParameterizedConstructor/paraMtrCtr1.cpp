@@ -24,7 +24,7 @@ class Main{
 };
 int main()
 {
-   Main obj1(10,20);
    Main obj;
+   Main obj1(10,20);
    Main obj2(10,20,"suraj");
 }
