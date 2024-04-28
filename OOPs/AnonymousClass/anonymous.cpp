@@ -3,28 +3,30 @@ Anonymous Class:-
 A class with no name provided is known as an anonymous class in c++.
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-class{
+class
+{
     int n;
-    public:
+
+public:
     void setVal(int a)
     {
         // using this pointer keyword
-       this -> n = a;  // n = a;
+        this->n = a; // n = a;
     }
     void printVal()
     {
-        cout<<"value is: "<<this -> n;
+        cout << "value is: " << this->n;
     }
 } obj;
 
 int main()
 {
-   int n;
-   cout<<"Enter the number: ";
-   cin>>n;
-   obj.setVal(n);
-   obj.printVal();
+    int n;
+    cout << "Enter the number: ";
+    cin >> n;
+    obj.setVal(n);
+    obj.printVal();
 }

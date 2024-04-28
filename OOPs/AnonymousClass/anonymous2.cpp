@@ -1,19 +1,19 @@
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 class
 {
-    public:
+public:
     void show()
     {
-        cout<<"Show!!!\n";
+        cout << "Show!!!\n";
     }
     void print()
     {
-        cout<<"Print!!!\n";
+        cout << "Print!!!\n";
     }
-}obj1,obj2,obj3;
+} obj1, obj2, obj3;
 
 int main()
 {
