@@ -66,7 +66,7 @@ public:
         }
         cout << "======================================================\n";
         cout << "\n"
-        << "TotalFees: " << total << endl;
+             << "TotalFees: " << total << endl;
     }
     void countStudent()
     {

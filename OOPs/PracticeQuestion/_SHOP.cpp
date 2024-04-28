@@ -39,15 +39,15 @@ public:
     void show()
     {
         cout << "\n\n";
-        cout<<"======================================\n";
+        cout << "======================================\n";
         cout << "ItemCode\tItemName\tPrice\n";
-        cout<<"======================================\n";
+        cout << "======================================\n";
         for (int i = 0; i < count; i++)
         {
             cout << itemCode[i] << "\t\t " << itemName[i] << "\t\t " << price[i] << endl;
             total += price[i];
         }
-        cout<<"======================================\n";
+        cout << "======================================\n";
         cout << "\n"
              << "Total Bill: " << total << endl;
     }
