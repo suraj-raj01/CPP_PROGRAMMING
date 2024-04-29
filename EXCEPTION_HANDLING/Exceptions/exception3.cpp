@@ -6,9 +6,9 @@ int main()
     {
         // throw 1;
         // throw 1.1;
-        // throw 1.1f;
+        throw 1.1f;
         // throw 'a';
-        throw "suraj";
+        // throw "suraj";
     }
     catch(int e)
     {
