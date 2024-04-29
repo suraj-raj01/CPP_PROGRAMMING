@@ -1,19 +1,22 @@
 // Unary Operator Overloading Example.
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-class Main{
+class Main
+{
     int a = 0;
-    public:void operator ++()
+
+public:
+    void operator++()
     {
-        a = a+1;
-        cout<<a<<"\n";
+        a = a + 1;
+        cout << a << "\n";
     }
-    void operator --()
+    void operator--()
     {
-        a = a-1;
-        cout<<a<<"\n";
+        a = a - 1;
+        cout << a << "\n";
     }
 };
 
