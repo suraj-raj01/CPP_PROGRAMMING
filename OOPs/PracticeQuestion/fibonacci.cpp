@@ -7,15 +7,15 @@ using namespace std;
 
 class FIB
 {
-    int a,b;
+    int a,b,n;
     public:
+
     FIB()
     {
         a = -1;
         b = 1;
-    }
-    void fibseries(int n)
-    {
+        cout<<"Enter the number: ";
+        cin>>n;
         int next;
         for(int i=0; i<n; i++)
         {
@@ -31,8 +31,4 @@ class FIB
 int main()
 {
     FIB f;
-    int n;
-    cout<<"Enter the range: ";
-    cin>>n;
-    f.fibseries(n);
 }

@@ -21,13 +21,15 @@ class STUDENT
     int MaxMarks;
 
 public:
-    void assign(string n, int m[])
+    void assign()
     {
-        sname = n;
-        for(int i=0; i<5; i++)
-        {
-            marks[i] = m[i];
-        }
+    cout<<"Enter the student name: ";
+    cin>>sname;
+    cout<<"Enter 5 marks \n";
+    for(int i=0; i<5; i++)
+    {
+        cin>>marks[i];
+    }
     }
     void compute()
     {
@@ -58,17 +60,8 @@ public:
 
 int main()
 {
-    string s;
-    int arr[5];
-    cout<<"Enter the student name: ";
-    cin>>s;
-    cout<<"Enter 5 marks \n";
-    for(int i=0; i<5; i++)
-    {
-        cin>>arr[i];
-    }
     STUDENT std;
-    std.assign(s,arr);
+    std.assign();
     std.compute();
     std.display();
 }

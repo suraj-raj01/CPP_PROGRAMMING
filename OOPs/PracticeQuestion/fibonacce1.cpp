@@ -14,7 +14,7 @@ class FIB
         {
             return;
         }
-        int res = (n-1)+(n-2);
+        int res = n+(n-1)+(n-2);
         cout<<res;
     }
 };

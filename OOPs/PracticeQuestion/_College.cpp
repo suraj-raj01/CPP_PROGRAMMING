@@ -57,7 +57,7 @@ public:
     void show()
     {
         cout << "======================================================\n";
-        cout << "Name\t\trollNo\t\tcourse\t\tfees\n";
+        cout << "Name\t\tRollNo\t\tCourse\t\tFees\n";
         cout << "======================================================\n";
         for (int i = 0; i < count; i++)
         {
