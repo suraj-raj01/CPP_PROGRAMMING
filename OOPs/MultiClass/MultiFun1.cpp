@@ -1,6 +1,6 @@
 /*
 MULTI-CLASSES -> When we create more than one class in one program thats
-                 called Multi class
+                 called Multi-class
 */
 #include <iostream>
 using namespace std;

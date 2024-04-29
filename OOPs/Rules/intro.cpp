@@ -15,7 +15,7 @@ class show{
     public:void sum()
     {
         a=10,b=20;
-        cout<<a+b;
+        cout<<a+b<<"\n";
     }
     void hello()
     {
