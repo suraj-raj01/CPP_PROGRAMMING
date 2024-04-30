@@ -38,19 +38,19 @@ class SHOPPING
     }
     void show()
     {
-        cout<<"ItemCode\tPrice\n";
+        cout<<"\n\nItemCode\tPrice\n";
         for(int i=0; i<count; i++)
         {
             cout<<ItemCode[i]<<"\t\t"<<price[i]<<endl;
             total += price[i];
         }
-        cout<<"Total Price: "<<total<<endl;
+        cout<<"\nTotal Price: "<<total<<endl;
     }
     void Delete()
     {
         total = 0;
         int del;
-        cout<<"Enter the ItemCode to delete: ";
+        cout<<"\nEnter the ItemCode to delete: ";
         cin>>del;
         for(int i=0; i<count; i++)
         {

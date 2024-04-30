@@ -10,14 +10,14 @@ using namespace std;
 
 class alpha{
     public:
-    void show1()
+    alpha()
     {
         cout<<"Alpha\n";
     }
 };
 class beta{
     public:
-    void show2()
+    beta()
     {
         cout<<"beta\n";
     }
@@ -25,7 +25,7 @@ class beta{
 class gama:public alpha, public beta
 {
     public:
-    void show3()
+    gama()
     {
         cout<<"Gama";
     }
@@ -34,7 +34,4 @@ class gama:public alpha, public beta
 int main()
 {
     gama g;
-    g.show1();
-    g.show2();
-    g.show3();
 }
