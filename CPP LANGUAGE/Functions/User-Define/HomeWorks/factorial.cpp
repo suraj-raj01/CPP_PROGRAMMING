@@ -24,6 +24,7 @@ int main()
     }
     else
     {
+    cout<<"factorial: ";
     fact(n);
     }
 }

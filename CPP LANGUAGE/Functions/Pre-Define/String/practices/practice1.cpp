@@ -17,7 +17,7 @@ int main()
         }
         else
         {
-        cout<<ch[i];
+            cout << ch[i];
         }
     }
 }

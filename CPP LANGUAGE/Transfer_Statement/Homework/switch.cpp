@@ -13,9 +13,9 @@ int main()
     {
     case 1:
     {
-        int temp = a;
-        a = b;
-        b = temp;
+        a = a+b;
+        b = a-b;
+        a = a-b;
         cout << "a = " << a << endl;
         cout << "b = " << b << endl;
         break;
@@ -23,22 +23,24 @@ int main()
 
     case 2:
     {
-        if(a>b){
-            cout<<a<<" is largest";
+        if (a > b)
+        {
+            cout << a << " is largest";
         }
-        else{
-            cout<<b<<" is largest";
+        else
+        {
+            cout << b << " is largest";
         }
         break;
     }
 
     case 3:
     {
-        int rectangle = a*b;
-        cout<<"area of rectangle: "<<rectangle;
+        int rectangle = a * b;
+        cout << "area of rectangle: " << rectangle;
         break;
     }
-                
+
     default:
     {
         cout << "Invalid Operator!!";
