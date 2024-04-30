@@ -1,16 +1,18 @@
+//Decimal To Binary
 #include<iostream>
 using namespace std;
 int main()
 {
-    int n;
-    cout<<"enter the number: ";
+    int a[10],n,i;
+    cout<<"Enter the number: ";
     cin>>n;
-    while(n!=0)
+    for(i=0; n>0; i++)
     {
-        if(n&1)
-        {
-            cout<<n;
-        }
-        n = n>>1;
+        a[i] = n%2;
+        n = n/2;
+    }
+    for(i=i-1; i>=0; i--)
+    {
+        cout<<a[i];
     }
 }
