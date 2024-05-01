@@ -1,17 +1,18 @@
 /*
 SHOP_MANAGEMENT SYSTEMS:-
-Data Members:
-ItemId
-ItemName
-ItemPrice
-RemoveData
-Total
-count
+  Data Members:
+  ItemId
+  ItemName
+  ItemPrice
+  RemoveData
+  Total
+  count
 
 Member Functions
-add()
-show()
-delet()
+  add()
+  show()
+  CANCEL()
+  EXIT()
 */
 
 #include<iostream>
@@ -120,7 +121,7 @@ class SHOPING
         }
         else
         {
-        cout<<"\nThankyou For Visiging!!\n\n";
+        cout<<"\nThankyou For Visiging!! "<<char(2)<<char(2)<<"\n\n";
         exit;
         }
     }
