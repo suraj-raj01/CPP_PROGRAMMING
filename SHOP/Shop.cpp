@@ -4,7 +4,7 @@ SHOP_MANAGEMENT SYSTEMS:-
   ItemId
   ItemName
   ItemPrice
-  RemoveData
+  RemoveItem
   Total
   count
 
@@ -58,11 +58,11 @@ class SHOPING
     void show()
     {
        cout<<"\n-----------------------------------------\n";
-       cout<<"ItemCode\tItemName\tItemPrice";
+       cout<<"ItemId\t\tItemName\tItemPrice";
        cout<<"\n-----------------------------------------\n";
        for(int i=0; i<count; i++)
        {
-          cout<<"  "<<ItemId[i]<<"\t\t"<<ItemName[i]<<"\t\t  "<<ItemPrice[i]<<endl;
+          cout<<"  "<<ItemId[i]<<"\t\t "<<ItemName[i]<<"\t\t  "<<ItemPrice[i]<<endl;
           total+=ItemPrice[i];
        }
        cout<<"-----------------------------------------\n";
@@ -121,7 +121,7 @@ class SHOPING
         }
         else
         {
-        cout<<"\nThankyou For Visiging!! "<<char(2)<<char(2)<<"\n\n";
+        cout<<"\nThankyou For Visiging... "<<char(2)<<char(2)<<"\n\n";
         exit;
         }
     }

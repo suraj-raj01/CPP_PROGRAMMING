@@ -1,4 +1,4 @@
-//Decimal To Binary
+// Decimal To Binary
 #include<iostream>
 using namespace std;
 #include<math.h>
@@ -8,7 +8,7 @@ int main()
     int bit;
     int i = 0;
     int ans = 0;
-    cout<<"Enter the Decimal Number: ";
+    cout<<"Enter the Binary Number: ";
     cin>>num;
     while(num!=0)
     {
@@ -22,3 +22,5 @@ int main()
     }
     cout<<ans;  
 }
+
+
