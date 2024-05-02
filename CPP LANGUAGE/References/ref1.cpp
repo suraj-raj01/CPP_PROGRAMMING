@@ -8,7 +8,7 @@ A reference variable is a "reference" to an existing variable, and it is created
 using namespace std;
 int main()
 {
-    string food = "fizza";  // food variable
+    string food = "Pizza";  // food variable
     string &meal = food;  // reference to food
 
     cout<<food<<endl;
