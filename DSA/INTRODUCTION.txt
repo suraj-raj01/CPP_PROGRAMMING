@@ -1,0 +1,21 @@
+What is Data Structure:
+Data structure is an arrangement of data in computers memory. Itmakes the data quickly
+available to the processor for required  operations
+
+It is a software artifact which allows data to be stored, organized 
+and accessed.
+
+Sorting:-
+It is nothing but storage of data in sorted order
+
+Shorting Technique: It depends on two parameters
+a)Execution time of a program
+b)Space taken by the program
+
+Sorting can be perfomed using several Technique some are follows:
+a)Bubble Sort
+b)Insertion Sort
+c)Selection Sort
+d)Quick Sort
+e)Merge Sort
+
