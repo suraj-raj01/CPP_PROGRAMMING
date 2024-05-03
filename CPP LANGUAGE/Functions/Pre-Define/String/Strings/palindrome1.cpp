@@ -6,7 +6,7 @@ int main()
     char c1[10];
     char c2[10];
     cout << "Enter name: ";
-    cin >> c1;
+    cin.getline(c1,10);
     strcpy(c2, c1);
     strrev(c1);
     if (stricmp(c1, c2) == 0)

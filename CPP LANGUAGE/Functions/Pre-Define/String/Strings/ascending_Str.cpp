@@ -20,7 +20,8 @@ int main()
             }
         }
     }
-    cout<<ch;
+    cout<<ch<<endl;
+    cout<<strupr(ch);
 }
 
 /*

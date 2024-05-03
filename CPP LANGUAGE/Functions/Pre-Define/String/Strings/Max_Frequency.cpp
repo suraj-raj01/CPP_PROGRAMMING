@@ -5,7 +5,7 @@
 // #include <cstring>
 // int main()
 // {
-//    char ch[20], t;
+//    char ch[20], p;
 //    cout << "Enter your name: ";
 //    cin >> ch;
 //    int p = 0;
@@ -23,10 +23,10 @@
 //       if (c > p)
 //       {
 //          p = c;
-//          t = ch[i];
+//          p = ch[i];
 //       }
 //    }
-//    cout << "Maximum Frequency Character: " << t << "\n";
+//    cout << "Maximum Frequency Character: " << p << "\n";
 //    cout << "Letter came " << p << " Times";
 // }
 
@@ -35,7 +35,7 @@
 // #include <cstring>
 // int main()
 // {
-//    char ch[20], t;
+//    char ch[20], p;
 //    cout << "Enter a string: ";
 //    cin >> ch;
 //    int p = 0;
@@ -53,11 +53,11 @@
 //       if (c > p)
 //       {
 //          p = c;
-//          t = ch[i];
+//          p = ch[i];
 //       }
 //    }
-//    cout<<"Maximum Frequency: "<<t<<endl;
-//    cout<<t<<" comes "<<p<<" Times"<<endl;
+//    cout<<"Maximum Frequency: "<<p<<endl;
+//    cout<<p<<" comes "<<p<<" Times"<<endl;
 // }
 
 #include<iostream>
@@ -65,10 +65,10 @@ using namespace std;
 #include<cstring>
 int main()
 {
-char ch[10],t;
+char ch[10],p;
 cout<<"Enter your name: ";
 cin>>ch;
-int p=0;
+int t=0;
 int len = strlen(ch);
 for(int i=0; i<len; i++)
 {
@@ -80,12 +80,12 @@ if(ch[i]==ch[j])
 c++;
 }
 }
-if(p<c)
+if(t<c)
 {
-p = c;
-t=ch[i];
+t = c;
+p=ch[i];
 }
 }
-cout<<t<<endl;
-cout<<p<<" times";
+cout<<p<<endl;
+cout<<t<<" times";
 }
