@@ -26,10 +26,10 @@ class Person
     }
     void show()
     {
-        cout<<"NAME: \tAGE\n";
+        cout<<"NAME \t\tAGE\n";
         for(int i=0; i<5; i++)
         {
-            cout<<name[i]<<"\t"<<age[i]<<endl;
+            cout<<name[i]<<"\t\t"<<age[i]<<endl;
         }
     }
     void older()
@@ -51,7 +51,7 @@ int main()
 {
 string name[5];
 int age[5];
-cout<<"Enter the name: ";
+cout<<"Enter the name: \n";
 for(int i=0; i<5; i++)
 {
     cin>>name[i];

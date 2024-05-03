@@ -23,5 +23,5 @@ int main()
     cin>>b;
     cout<<"Enter the power: ";
     cin>>p;
-    cout<<pwr(b,p);
+    cout<<"Ans: "<<pwr(b,p);
 }
