@@ -26,30 +26,31 @@
 //   obj1.show();
 // }
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 class Main
 {
-static int n;
+    static int n;
+
 public:
-Main()
-{
-n++;
-}
-void show()
-{
-cout<<n;
-}
+    Main()
+    {
+        n++;
+    }
+    void show()
+    {
+        cout << n;
+    }
 };
-int Main::n=0;
+int Main::n = 0;
 int main()
 {
-Main obj1;
-Main obj12;
-Main obj3;
-Main obj4;
-Main obj5;
-Main obj6;
-obj1.show();
+    Main obj1;
+    Main obj12;
+    Main obj3;
+    Main obj4;
+    Main obj5;
+    Main obj6;
+    obj1.show();
 }

@@ -58,15 +58,15 @@ int main()
 
 // WAP to print maximum number from an array, pass array as parameter in functions.
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int maximum(int arr[], int len)
 {
     int s = arr[0];
-    for(int i=0; i<len; i++)
+    for (int i = 0; i < len; i++)
     {
-        if(s<arr[i])
+        if (s < arr[i])
         {
             s = arr[i];
         }
@@ -77,14 +77,14 @@ int maximum(int arr[], int len)
 int main()
 {
     int n;
-    cout<<"Enter the size of an array: ";
-    cin>>n;
+    cout << "Enter the size of an array: ";
+    cin >> n;
     int arr[n];
-    cout<<"Enter the number: ";
-    int len = sizeof(arr)/sizeof(arr[0]);
-    for(int i=0; i<len; ++i)
+    cout << "Enter the number: ";
+    int len = sizeof(arr) / sizeof(arr[0]);
+    for (int i = 0; i < len; ++i)
     {
-        cin>>arr[i];
+        cin >> arr[i];
     }
-    cout<<"Maximum number: "<<maximum(arr,len);
+    cout << "Maximum number: " << maximum(arr, len);
 }

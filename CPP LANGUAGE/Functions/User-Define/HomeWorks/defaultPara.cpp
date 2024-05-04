@@ -1,10 +1,10 @@
 // default Parameter.
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 void str(string country = "India")
 {
-    cout<<country<<endl;
+    cout << country << endl;
 }
 int main()
 {
