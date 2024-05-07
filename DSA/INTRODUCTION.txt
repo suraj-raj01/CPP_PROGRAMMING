@@ -19,3 +19,12 @@ c)Selection Sort
 d)Quick Sort
 e)Merge Sort
 
+//Viva Type Questions
+
+[6,2,9,5,8]
+1. Based on Either
+Elements/Structure
+2.Internal/External/Inplace/Not in Place/Space Complexity
+3.Stable/Not Stable
+4.Time Complexity
+5.Approach
