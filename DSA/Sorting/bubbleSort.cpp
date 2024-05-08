@@ -43,4 +43,96 @@ print(arr,n);
 
 
 
+/*
+#include<iostream>
+using namespace std;
+int main()
+{
+    int arr[] = {8,6,9,2,7,5,3};
+    int temp,swapped,c;
+    int size = sizeof(arr)/sizeof(arr[0]);
+    cout<<"Array Before Applying Bubble Sort: \n";
+    for(int i=0; i<size; i++)
+    {
+        cout<<arr[i]<<"\t";
+    }
+    swapped=0;
+    for(int i=0; i<size; i++)
+    {
+        c=0;
+        for(int j=0; j<size-i-1; j++)
+        {
+            if(arr[j]>arr[j+1])
+            {
+                temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+                swapped++;
+                c++;
+            }
+        }
+        if(i!=size-1 && c==0)
+        {
+            // cout<<"Array Sorted During Run Time\n";
+            break;
+        }
+    }
+    cout<<"\nAfter applying Bubble Sort: \n";
+    for(int j=0; j<size; j++)
+    {
+        cout<<arr[j]<<"\t";
+    }
+    cout<<"\n"<<swapped<<" Times swapped\n";
+}
+*/
 
+#include<iostream>
+using namespace std;
+
+void BubbleSort(int arr[],int size)
+{
+    cout<<"Before Apply Bubble Sort:\n";
+    for(int i = 0; i<size; i++)
+    {
+        cout<<arr[i]<<"  ";
+    }
+
+    int swapped = 0;
+    // Swapping
+    for(int i=0; i<size; i++)
+    {
+        for(int j=0; j<size-i-1; j++)
+        {
+            if(arr[j]>arr[j+1])
+            {
+                int temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+                swapped++;
+            }
+        }
+    }
+
+    //Print sorted Array
+    cout<<"\nAfter apply Bubble Sort\n";
+    for(int j=0; j<size; j++)
+    {
+        cout<<arr[j]<<"  ";
+    }
+    cout<<endl;
+    cout<<"Swapped: "<<swapped<<" times";
+}
+
+int main()
+{
+    int size;
+    cout<<"Enter the size of array: ";
+    cin>>size;
+    cout<<"Enter "<<size<<" element: ";
+    int arr[size];
+    for(int i=0; i<size; i++)
+    {
+        cin>>arr[i];
+    }
+    BubbleSort(arr,size);
+}
