@@ -67,9 +67,9 @@ public:
             total += ItemPrice[i];
         }
         cout << "-----------------------------------------\n";
-        cout << "\nTotal Item: " << count;
-        cout << "\nRemoved Item: " << remove;
-        cout << "\nTotal New: " << count - remove;
+        cout << "\nTotal Items: " << count;
+        cout << "\nRemoved Items: " << remove;
+        cout << "\nTotal New Items: " << count - remove;
         cout << "\nTotal Bill: " << total << endl;
         CANCEL();
     }
@@ -124,7 +124,7 @@ public:
         }
         else
         {
-            cout << "\nThankyou For Visiging... " << char(2) << char(2) << "\n\n";
+            cout << "\nThankyou For Visiting... " << char(2) << char(2) << "\n\n";
             exit;
         }
     }
