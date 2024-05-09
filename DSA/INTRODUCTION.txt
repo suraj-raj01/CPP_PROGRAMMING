@@ -21,10 +21,18 @@ e)Merge Sort
 
 //Viva Type Questions
 
+// BUBBLE SORT
+
 [6,2,9,5,8]
-1. Based on Either
-Elements/Structure
-2.Internal/External/Inplace/Not in Place/Space Complexity
+1. Based on Either -> Elements/Structure
+2.Internal/External/Inplace/Not Inplace/Space Complexity
 3.Stable/Not Stable
 4.Time Complexity
 5.Approach
+
+1. -> Bubble Sort based on Structure as well as Elements.
+2. -> Inplace, Space Complexity -> O(1).
+3. -> Unstable (if in array have dublicate value the we can say Stable).
+4. -> O(n) in best case if code will optimize O(n2) in worst case.
+5. -> Subtract & Conqure.
+
