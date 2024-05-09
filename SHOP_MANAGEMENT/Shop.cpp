@@ -17,7 +17,6 @@ Member Functions
 
 #include <iostream>
 using namespace std;
-
 class SHOPING
 {
     int ItemId[100];

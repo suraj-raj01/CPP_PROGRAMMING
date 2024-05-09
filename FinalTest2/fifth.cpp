@@ -43,7 +43,12 @@ int main()
    Main m;
    m.msg();
    RESULT r;
-   r.add(20,10);
-   r.sub(20,10);
-   r.mul(20,10);
+   int x,y;
+   cout<<"Enter the first number: ";
+   cin>>x;
+   cout<<"Enter the second number: ";
+   cin>>y;
+   r.add(x,y);
+   r.sub(x,y);
+   r.mul(x,y);
 }
