@@ -1,0 +1,44 @@
+1.Write a  program to print all natural numbers from 1 to n. – using while loop
+2. Write a  program to print all natural numbers in reverse (from n to 1). – using while loop
+3. Write a  program to print all alphabets from a to z. – using while loop
+4. Write a  program to print all even numbers between 1 to 100. – using while loop
+5. Write a program to print all odd number between 1 to 100.
+6. Write a  program to find sum of all natural numbers between 1 to n.
+7. Write a  program to find sum of all even numbers between 1 to n.
+8. Write a  program to find sum of all odd numbers between 1 to n.
+9. Write a  program to print multiplication table of any number.
+10. Write a  program to count number of digits in a number.
+11. Write a  program to find first and last digit of a number.
+12. Write a program to find sum of first and last digit of a number.
+13. Write a  program to swap first and last digits of a number.
+14. Write a  program to calculate sum of digits of a number.
+15. Write a  program to calculate product of digits of a number.
+16. Write a  program to enter a number and print its reverse.
+17. Write a  program to check whether a number is palindrome or not.
+18. Write a  program to find given number is perfect number or not .
+19. Write a program to enter a number and print it in words.
+20. Write a  program to print all ASCII character with their values.
+21. Write a program to find power of a number using for loop.
+22. Write a  program to find all factors of a number.
+23. Write a  program to calculate factorial of a number.
+24. Write a  program to find HCF (GCD) of two numbers.
+25. Write a  program to find LCM of two numbers.
+26. Write a  program to check whether a number is Prime number or not.
+ 
+27. Write a  program to find sum of all prime numbers between 1 to n.
+28. Write a  program to find all prime factors of a number.
+29. Write a  program to check whether a number is Armstrong number or not.
+30. Write a  program to check whether a number is Perfect number or not.
+31. Write a  program to check whether a number is Strong number or not..
+32. Write a program to print Fibonacci series up to n terms.
+33. Write a  program to convert Binary to Decimal number system..
+34. Write a  program to convert Decimal to Binary number system.
+35. Write a program to find Factorial of given number
+36. Write a program to find power.
+37. Write a program to count one in binary.
+38. Write a  program to print Pascal triangle upto n rows.
+39.  Write a program to print the Pyramid patterns.
+40.  Write a  program to print the consecutive number patterns.
+1
+2 3
+4 5 6
