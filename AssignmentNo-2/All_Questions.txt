@@ -24,7 +24,6 @@
 24. Write a  program to find HCF (GCD) of two numbers.
 25. Write a  program to find LCM of two numbers.
 26. Write a  program to check whether a number is Prime number or not.
- 
 27. Write a  program to find sum of all prime numbers between 1 to n.
 28. Write a  program to find all prime factors of a number.
 29. Write a  program to check whether a number is Armstrong number or not.
