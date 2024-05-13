@@ -18,6 +18,5 @@ int main()
                 frequency = arr[j];
             }
         }
-        cout<<frequency;
     }
 }
