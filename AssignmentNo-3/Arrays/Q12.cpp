@@ -29,7 +29,7 @@ int main()
     for(int i=0; i<a; i++)
     {
     arr3[i] = arr1[i];
-    arr3[i+a] = arr2[i];
+    arr3[i+b] = arr2[i];
     }
     cout<<"Third Array : ";
     for(int i=0; i<c; i++)
