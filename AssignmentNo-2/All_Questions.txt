@@ -28,7 +28,7 @@
 28. Write a program to find all prime factors of a number.
 29. Write a program to check whether a number is Armstrong number or not.
 30. Write a program to check whether a number is Perfect number or not.
-31. Write a program to check whether a number is Strong number or not..
+31. Write a program to check whether a number is Strong number or not.
 32. Write a program to print Fibonacci series up to n terms.
 33. Write a program to convert Binary to Decimal number system..
 34. Write a program to convert Decimal to Binary number system.
