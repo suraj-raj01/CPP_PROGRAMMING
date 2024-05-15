@@ -29,13 +29,19 @@ int main()
     for(int i=0; i<a; i++)
     {
     arr3[i] = arr1[i];
+    arr3[i+a] = arr2[i];
     }
-    for(int i=0; i<b; i++)
-    {
-        arr3[i+a] = arr1[i];
-    }
+    cout<<"Third Array : ";
     for(int i=0; i<c; i++)
     {
         cout<<arr3[i]<<" ";
     }
 }
+
+/*
+Enter the size of first array: 5
+Enter 5 elements: 1 2 3 4 5
+Enter the size of second array: 5
+Enter 5 elements: 6 7 8 9 10
+Third Array : 1 2 3 4 5 6 7 8 9 10 
+*/
