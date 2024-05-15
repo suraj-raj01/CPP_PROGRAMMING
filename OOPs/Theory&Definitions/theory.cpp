@@ -29,7 +29,7 @@ There are 4 Pillers of C++ (OOPs).
 
 
 4) PolymorPhism:-
-   The wor d "Polymorphism" means having many forms. In simple words we can 
+   The word "Polymorphism" means having many forms. In simple words we can 
    define Polymorphism as the ability of a message to be displyed in more 
    than one form.
    

@@ -2,10 +2,13 @@
 
 What is Constructor:-
 
-constructor is also called special type of function, the constructor name is
+constructor is also called special type of function, the constructor name should be
 similar to the class name.
 constructor never return type, constructor is used to allocate memory of an
 object at run time.
+
+A constructor is a special type of function which is automatically called, when we create
+an object of class.
 
 
 There are Three types of constructor:-
