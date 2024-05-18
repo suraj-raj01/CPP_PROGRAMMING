@@ -4,16 +4,15 @@
 using namespace std;
 int main()
 {
-    int n;
-    cout<<"Enter the 4 number: ";
+    int n,first,last;
+    cout<<"Enter the number: ";
     cin>>n;
-    int first,last;
-    if(n>1000 && n<10000){
-    first = n/1000;
-    last = n%100%10;
-    cout<<"sum is: "<<first+last;
+    last = n%10;
+    first = n;
+    while(first>=10)
+    {
+        first/=10;
     }
-    else{
-        cout<<"Please Enter 4 digit number!!";
-    }
+    cout<<"first: "<<first<<endl;
+    cout<<"last: "<<last;
 }
