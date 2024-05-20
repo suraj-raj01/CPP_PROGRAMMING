@@ -56,7 +56,7 @@ void selectionSort(int arr[], int size)
     for(int i=0; i<size; i++)
     {
         chhotu = i;
-        for(int j=i; j<size; j++)
+        for(int j=i+1; j<size; j++)
         {
             if(arr[chhotu]>arr[j])
             {
@@ -90,3 +90,10 @@ for(int i=0; i<size; i++)
 }
 selectionSort(arr,size);
 }
+
+// Space Complexity : O(n) in every case.
+// Time Complexity : O(n2)
+// We cant optimize code.
+// It is not stable
+// inplace(Internal)
+// Not inplace(External)
