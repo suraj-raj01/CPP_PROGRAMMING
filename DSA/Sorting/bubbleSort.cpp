@@ -1,6 +1,6 @@
 // Bubble Sort...
 
-/*
+
 #include<iostream>
 using namespace std;
 #include<cmath>
@@ -39,7 +39,7 @@ cout<<"\nAfter Bubble Sort\n";
 BubbleSort(arr,n);
 print(arr,n);
 }
-*/
+
 
 
 
@@ -86,53 +86,53 @@ int main()
 }
 */
 
-#include<iostream>
-using namespace std;
+// #include<iostream>
+// using namespace std;
 
-void BubbleSort(int arr[],int size)
-{
-    cout<<"Before Apply Bubble Sort:\n";
-    for(int i = 0; i<size; i++)
-    {
-        cout<<arr[i]<<"  ";
-    }
+// void BubbleSort(int arr[],int size)
+// {
+//     cout<<"Before Apply Bubble Sort:\n";
+//     for(int i = 0; i<size; i++)
+//     {
+//         cout<<arr[i]<<"  ";
+//     }
 
-    int swapped = 0;
-    // Swapping
-    for(int i=0; i<size; i++)
-    {
-        for(int j=0; j<size-i-1; j++)
-        {
-            if(arr[j]>arr[j+1])
-            {
-                int temp = arr[j];
-                arr[j] = arr[j+1];
-                arr[j+1] = temp;
-                swapped++;
-            }
-        }
-    }
+//     int swapped = 0;
+//     // Swapping
+//     for(int i=0; i<size; i++)
+//     {
+//         for(int j=0; j<size-i-1; j++)
+//         {
+//             if(arr[j]>arr[j+1])
+//             {
+//                 int temp = arr[j];
+//                 arr[j] = arr[j+1];
+//                 arr[j+1] = temp;
+//                 swapped++;
+//             }
+//         }
+//     }
 
-    //Print sorted Array
-    cout<<"\nAfter apply Bubble Sort\n";
-    for(int j=0; j<size; j++)
-    {
-        cout<<arr[j]<<"  ";
-    }
-    cout<<endl;
-    cout<<"Swapped: "<<swapped<<" times";
-}
+//     //Print sorted Array
+//     cout<<"\nAfter apply Bubble Sort\n";
+//     for(int j=0; j<size; j++)
+//     {
+//         cout<<arr[j]<<"  ";
+//     }
+//     cout<<endl;
+//     cout<<"Swapped: "<<swapped<<" times";
+// }
 
-int main()
-{
-    int size;
-    cout<<"Enter the size of array: ";
-    cin>>size;
-    cout<<"Enter "<<size<<" element: ";
-    int arr[size];
-    for(int i=0; i<size; i++)
-    {
-        cin>>arr[i];
-    }
-    BubbleSort(arr,size);
-}
+// int main()
+// {
+//     int size;
+//     cout<<"Enter the size of array: ";
+//     cin>>size;
+//     cout<<"Enter "<<size<<" element: ";
+//     int arr[size];
+//     for(int i=0; i<size; i++)
+//     {
+//         cin>>arr[i];
+//     }
+//     BubbleSort(arr,size);
+// }
