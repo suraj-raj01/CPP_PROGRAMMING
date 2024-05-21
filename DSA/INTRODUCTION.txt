@@ -32,7 +32,7 @@ e)Merge Sort
 
 1. -> Bubble Sort based on Structure as well as Elements.
 2. -> Inplace, Space Complexity -> O(1).
-3. -> Unstable (if in array have dublicate value the we can say Stable).
+3. -> Unstable (if in array have dublicate value then we can say Stable).
 4. -> O(n) in best case if code will optimize O(n2) in worst case.
 5. -> Subtract & Conqure.
 
