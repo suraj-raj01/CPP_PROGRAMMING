@@ -1,5 +1,13 @@
 /*
 Quick Sort :
+Time Complexity :
+    a)BestCase: O(n2)
+    b)AverageCase : O(nlogn)
+    c)worstCase : O(n2)
+Space Complexity : O(1)
+Aproach : Divide Conquer
+Inplace(Internal) : Yes
+Structure Based Sort
 */
 
 #include<iostream>
