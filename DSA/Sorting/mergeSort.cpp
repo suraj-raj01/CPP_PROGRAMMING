@@ -9,6 +9,7 @@ Time Complexity:
 #include<iostream>
 using namespace std;
 
+// subarray implementation
 void merge(int A[],int low, int mid, int high)
 {
     int i,j,k,B[high+1];
@@ -45,7 +46,7 @@ void merge(int A[],int low, int mid, int high)
         A[i]=B[i];
     }
 }
-
+// Merge Sort implimentation
 void msort(int A[],int low, int high)
 {
     int mid;
@@ -57,7 +58,7 @@ void msort(int A[],int low, int high)
         merge(A,low,mid,high);
     }
 }
-
+// print Array
 void printArr(int A[],int n)
 {
     for(int i=0; i<n; i++)

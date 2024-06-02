@@ -12,7 +12,7 @@ Structure Based Sort
 
 #include<iostream>
 using namespace std;
-
+// Partition Implimentation.
 int partition(int *arr,int low, int high)
 {
     int tem;
@@ -40,7 +40,7 @@ int partition(int *arr,int low, int high)
     arr[q] = tem;
     return q;
 }
-
+// Quick Sort Implementation
 void QuickSort(int *arr, int low, int high)
 {
     int pivot;

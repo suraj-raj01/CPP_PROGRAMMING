@@ -1,6 +1,6 @@
 // Bubble Sort...
 
-
+/*
 #include<iostream>
 using namespace std;
 #include<cmath>
@@ -10,11 +10,13 @@ void BubbleSort(int arr[], int size)
     int swaped=0;
     for(int i=0; i<size; i++)
     {
-        for(int j=0; j<i-1; j++)
+        for(int j=0; j<size-i-1; j++)
         {
-            if(arr[i]<arr[j+1])
+            if(arr[j]>arr[j+1])
             {
-                swap(arr[i],arr[j+1]);
+                int temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
                 swaped++;
             }
         }
@@ -39,11 +41,11 @@ cout<<"\nAfter Bubble Sort\n";
 BubbleSort(arr,n);
 print(arr,n);
 }
+*/
 
 
 
 
-/*
 #include<iostream>
 using namespace std;
 int main()
@@ -84,7 +86,7 @@ int main()
     }
     cout<<"\n"<<swapped<<" Times swapped\n";
 }
-*/
+
 
 // #include<iostream>
 // using namespace std;
