@@ -1,0 +1,2 @@
+Array :-
+Array is called a Sequence Container and it is static.
