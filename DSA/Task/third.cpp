@@ -11,6 +11,7 @@ Input: nums = [-1,-100,3,99], k = 2Output: [3,99,-1,-100]
 
 */
 
+/*
 #include<iostream>
 using namespace std;
 #include<array>
@@ -41,3 +42,6 @@ int main()
     cout<<"\n";
     }
 }
+*/
+
+

@@ -8,6 +8,7 @@ Input: nums = [0] Output: [0]
 
 */
 
+/*
 #include<iostream>
 using namespace std;
 #include<array>
@@ -15,8 +16,7 @@ using namespace std;
 int main()
 {
     array<int ,5>a= {0,1,0,3,12};
-    sort(a.begin(),a.end());
-    cout<<"Sort Data: ";
+
     for(int i=0;i<a.size(); i++)
     {
         cout<<a[i]<<" ";
@@ -38,5 +38,33 @@ int main()
     for(int i=0; i<a.size(); i++)
     {
         cout<<a[i]<<" ";
+    }
+}
+*/
+
+#include<iostream>
+using namespace std;
+#include<array>
+int main()
+{
+    array<int, 5>a = {2,0,3,1,0};
+    array<int, 5>b;
+    int c = 0;
+    for(int i=0; i<a.size(); i++)
+    {
+        if(a[i]!=0)
+        {
+            b[c] = a[i];
+            c++;
+        }
+    }
+    while(c<a.size())
+    {
+        b[c] = 0;
+        c++;
+    }
+    for(auto k:b)
+    {
+        cout<<k<<" ";
     }
 }

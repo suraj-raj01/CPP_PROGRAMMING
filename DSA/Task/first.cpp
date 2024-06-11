@@ -13,9 +13,13 @@ using namespace std;
 #include<array>
 int main()
 {
-    array<int,5> a = {1,2,5,4,7};
-    for(auto k:a)
+    array<int,5> a = {2,4,3,1,0};
+    int n = a.size();
+    int sum = n*(n+1)/2;
+    int s = 0;
+    for(int i=0; i<n; i++)
     {
-        cout<<k<<" ";
+        s+=a[i];
     }
+    cout<<"Missing Number is: "<<sum-s;
 }
