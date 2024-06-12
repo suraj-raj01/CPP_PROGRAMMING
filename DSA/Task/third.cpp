@@ -11,6 +11,29 @@ Input: nums = [-1,-100,3,99], k = 2Output: [3,99,-1,-100]
 
 */
 
+
+#include<iostream>
+using namespace std;
+#include<array>
+int main()
+{
+    array<int, 4>a = {-1,-100,3,99};
+    array<int, 4>b;
+    int s = a.size();
+    int step = 2;
+    for(int i=0; i<s; i++)
+    {
+        b[(i+step)%s] = a[i];
+    }
+    for(auto k:b)
+    {
+        cout<<k<<" ";
+    }
+}
+
+// Time Complexity : O(n)
+// Space Complexity : O(1)
+
 /*
 #include<iostream>
 using namespace std;
@@ -42,6 +65,9 @@ int main()
     cout<<"\n";
     }
 }
+
+// Time Complexity : O(n2)
+// Space Complexity : O(1)
 */
 
 
