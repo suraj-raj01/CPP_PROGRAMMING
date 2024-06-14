@@ -14,7 +14,7 @@ int main()
 {
     cout<<show(4)<<"\n";
     cout<<[](int a) {return a>2;}(3)<<"\n"; 
-    cout<<[](int a) {return a++;}(3)<<"\n"; 
+    cout<<[](int a) {return a+1;}(3)<<"\n"; 
 
     vector<int>a{1,5,7,8,6,3,2};
     cout<<"Ascending Order : ";
