@@ -4,7 +4,6 @@ using namespace std;
 #include<math.h>
 int main()
 {
-    /*
 
     int a[10],n,i;
     cout<<"Enter the number: ";
@@ -18,9 +17,8 @@ int main()
     {
         cout<<a[i];
     }
-    
-    */
-
+}
+/*
     int num;
     int bit;
     int i = 0;
@@ -36,3 +34,4 @@ int main()
     }
     cout<<ans;  
 }
+*/
