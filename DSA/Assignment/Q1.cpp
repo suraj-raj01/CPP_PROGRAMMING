@@ -7,6 +7,7 @@ Output:[2,4]
 
 */
 
+/*
 #include<iostream>
 using namespace std;
 #include<vector>
@@ -24,5 +25,46 @@ int main()
                 cout<<"[ "<<i<<" , "<<j<<" ]\n";
             }
         }
+    }
+}
+*/
+
+#include<iostream>
+using namespace std;
+#include<vector>
+#include<algorithm>
+int main()
+{
+    vector<int>a{9,3,2,5,1};
+    sort(a.begin(),a.end());
+    int target=8;
+    int l=0;
+    int r = a.size()-1;
+    int sum=0;
+    int count=0;
+    while(l<r)
+    {
+        sum=a[l]+a[r];
+        if(sum==target)
+        {
+            // cout<<"True";
+            count++;
+            break;
+        }
+        else if(sum<target)
+        {
+            l++;
+        }
+        else if(sum>target)
+        {
+            r--;
+        }
+    }
+    if(count==1)
+    {
+        cout<<"True";
+    }
+    else{
+        cout<<"false";
     }
 }
