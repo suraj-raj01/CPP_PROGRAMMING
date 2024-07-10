@@ -17,24 +17,23 @@
 #include<iostream>
 using namespace std;
 
-class heaps{
+class Heaps{
     int arr[10];
-    int s, index;
+    int s,index;
     public:
-    heaps()
+    Heaps()
     {
         s=0;
     }
     void maxhp(int d)
     {
-        s = s+1;
+        s+=1;
         index = s;
         arr[index] = d;
         while(index>1)
         {
             int parent = index/2;
             if(arr[parent]<arr[index])
-            //if(arr[parent]>arr[index]) // for mean heap
             {
                 swap(arr[index],arr[parent]);
                 index = parent;
@@ -48,14 +47,14 @@ class heaps{
     {
         for(int i=1; i<=s; i++)
         {
-            cout<<arr[i]<<"\t";
+            cout<<arr[i]<<"  ";
         }
     }
 };
 
 int main()
 {
-    heaps h;
+    Heaps h;
     h.maxhp(50);
     h.maxhp(2);
     h.maxhp(9);

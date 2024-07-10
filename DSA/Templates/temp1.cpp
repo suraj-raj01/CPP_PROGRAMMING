@@ -10,7 +10,7 @@ y sum(x a, y b)
 int main()
 {
     cout<<sum(2,56.8)<<endl;
-    cout<<sum(2.55,56.35);
+    cout<<sum(2.55,56.2);
 }
 
 /*

@@ -14,7 +14,7 @@ class Cybrom{
     }
     void show()
     {
-        cout<<"\nnsum = "<<a+b;
+        cout<<"\nsum = "<<a+b;
     }
 };
 
