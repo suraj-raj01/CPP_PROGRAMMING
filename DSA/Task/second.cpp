@@ -42,6 +42,7 @@ int main()
 }
 */
 
+/*
 #include<iostream>
 using namespace std;
 #include<array>
@@ -68,3 +69,39 @@ int main()
         cout<<k<<" ";
     }
 }
+
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+*/
+
+#include<iostream>
+using namespace std;
+#include<vector>
+class Solution{
+    public:
+    void moveZero(vector<int>num)
+    {
+        int l=0;
+        for(int r=0; r<num.size(); r++)
+        {
+            if(num[r]!=0)
+            {
+                swap(num[r],num[l]);
+                l++;
+            }
+        }
+        for(int i=0; i<num.size(); i++)
+        {
+            cout<<num[i]<<"  ";
+        }
+    }
+};
+int main()
+{
+    Solution s;
+    vector<int>num{0,0,2,0,4,0,8};
+    s.moveZero(num);
+}
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)
