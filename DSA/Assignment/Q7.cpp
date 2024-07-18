@@ -16,6 +16,12 @@ using namespace std;
 int main()
 {
     vector<int>a{4,4,8,8,8,15,16,23,23,53};
+    sort(a.begin(),a.end());
+    for(auto k:a)
+    {
+        cout<<k<<" ";
+    }
+    cout<<"\n";
     cout<<"4 : "<<count(a.begin(),a.end(),4)<<"\n";
     cout<<"8 : "<<count(a.begin(),a.end(),8)<<"\n";
     cout<<"15 : "<<count(a.begin(),a.end(),15)<<"\n";
