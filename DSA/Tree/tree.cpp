@@ -27,6 +27,7 @@ node *create(node *root)
     root->right=create(root->right);
     return root;
 }
+// Pre Order Traversal.
 void pre(node *root)
 {
     if(root==NULL)
