@@ -1,34 +1,34 @@
 #include<iostream>
 using namespace std;
-class node{
+class Node{
     public:
     int data;
-    class node *left,*right;
-    node(int d)
+    class Node *left,*right;
+    Node(int d)
     {
         data = d;
         left = NULL;
         right = NULL;
     }
 };
-node *create(node *root)
+Node *create(Node *root)
 {
     int x;
     cout<<"Enter value: ";
     cin>>x;
-    root = new node(x);
+    root = new Node(x);
     if(x==-10)
     {
         return NULL;
     }
-    cout<<"Enter value for left node "<<x<<"\n";
+    cout<<"Enter value for left Node "<<x<<"\n";
     root->left=create(root->left);
-    cout<<"Enter value for right node "<<x<<"\n";
+    cout<<"Enter value for right Node "<<x<<"\n";
     root->right=create(root->right);
     return root;
 }
 // Pre Order Traversal.
-void pre(node *root)
+void pre(Node *root)
 {
     if(root==NULL)
     {
@@ -38,13 +38,40 @@ void pre(node *root)
     pre(root->left);
     pre(root->right);
 }
+// Inorder Traversal
+
+void inOrder(Node *root)
+{
+    if(root==NULL)
+    {
+        return;
+    }
+    inOrder(root->left);
+    cout<<root->data<<"\t";
+    inOrder(root->right);
+}
+void PostOrder(Node *root)
+{
+    if(root==NULL)
+    {
+        return;
+    }
+    PostOrder(root->left);
+    PostOrder(root->right);
+    cout<<root->data<<"\t";
+}
 
 int main()
 {
-    node *root = NULL;
+    Node *root = NULL;
     root = create(root);
+    cout<<"Pre Order Tree Traversal\n";
     pre(root);
+    cout<<"\nIn-Order Tree Traversal\n";
+    inOrder(root);
+    cout<<"\nPost-Order Tree Traversal\n";
+    PostOrder(root);
 }
 
-// WAP to count the leaf node
+// WAP to count the leaf Node
 // WAP to create a binary search tree
