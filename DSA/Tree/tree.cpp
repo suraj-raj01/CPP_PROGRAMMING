@@ -34,7 +34,7 @@ void pre(Node *root)
     {
         return;
     }
-    cout<<root->data<<"\t";
+    cout<<root->data<<"  ";
     pre(root->left);
     pre(root->right);
 }
@@ -47,7 +47,7 @@ void inOrder(Node *root)
         return;
     }
     inOrder(root->left);
-    cout<<root->data<<"\t";
+    cout<<root->data<<"  ";
     inOrder(root->right);
 }
 void PostOrder(Node *root)
@@ -58,7 +58,7 @@ void PostOrder(Node *root)
     }
     PostOrder(root->left);
     PostOrder(root->right);
-    cout<<root->data<<"\t";
+    cout<<root->data<<"  ";
 }
 
 int main()
