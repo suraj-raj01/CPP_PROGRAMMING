@@ -8,14 +8,11 @@ int main()
     int l = 0;
     int size = num.size();
     int sum = 0;
-    for(int i=0; i<size; i++)
-    {
-        sum = size*(size+1)/2;
-    }
+    sum = size*(size+1)/2;
     int s=0;
     for(int i=0; i<num.size(); i++)
     {
         s+=num[i];
     }
-    cout<<sum-s;
+    cout<<"Missing Number is: "<<sum-s;
 }
