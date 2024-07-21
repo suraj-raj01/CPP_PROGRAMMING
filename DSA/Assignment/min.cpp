@@ -21,18 +21,17 @@ int main()
         stk.push(d);
     }
 
-
     cout<<"Output :\n";
     while(!stk.empty())
     {
         t2.push(stk.top());
-        // if(min>stk.top())
-        // {
-        //     min = stk.top();
-        // }
+        if(min>stk.top())
+        {
+            min = stk.top();
+        }
         stk.pop();
     }
-    // cout<<"Min value: "<<min;
+    cout<<"Min value: "<<min<<endl;
     cout<<"Reverse Order\n";
     while(!t2.empty())
     {
