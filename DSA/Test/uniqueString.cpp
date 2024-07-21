@@ -14,15 +14,17 @@ using namespace std;
 int main()
 {
     string s[] = {"pen","copy","pen","copy","eraser"};
-    int l = 0;
+    int size = sizeof(s)/sizeof(s[0]);
     int count=0;
     for(int i=0; i<s->size(); i++)
     {
-        for(int j=0; j<s->size(); j++)
+        count=0;
+        for(int j=0; j<size; j++)
         {
         if(s[i]==s[j])
         {
-            cout<<s[i];
+            cout<<s[i]<<"\n";
+            count++;
         }
         }
     }

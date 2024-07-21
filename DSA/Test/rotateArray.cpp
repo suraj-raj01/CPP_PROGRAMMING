@@ -7,7 +7,6 @@ int main()
     array<int,5>a{1,5,7,8,9};
     array<int,5>b;
     int size = a.size();
-    int l = 0;
     int step = 2;
     for(int r=0; r<size; r++)
     {

@@ -5,7 +5,6 @@ using namespace std;
 int main()
 {
     vector<int>num{0,3,5,4,1};
-    int l = 0;
     int size = num.size();
     int sum = 0;
     sum = size*(size+1)/2;
