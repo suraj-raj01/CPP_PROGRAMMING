@@ -55,7 +55,7 @@ public:
         // if queue is empty, set front to 0
         if (isEmpty())
         {
-            front = 0;
+            front++;
         }
         rear++;
         }
@@ -107,7 +107,7 @@ int main()
     q.enqueue(3);
 
     // Displaying status of the queue after enqueuing
-    cout << "\nAfter Enqueueing:" << endl;
+    cout << "After Enqueueing:" << endl;
 
     cout << "Front element: " << q.getFront() << endl;
     cout << "Rear element: " << q.getRear() << endl;
