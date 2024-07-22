@@ -9,7 +9,7 @@ int main()
     cout<<all_of(b.begin(),b.end(),[](int a){return a>40;})<<"\n";  // return 1
 
     // if any one student will fail then result will be 0.
-    // cout<<all_of(b.begin(),b.end(),[](int a){return a>40;})<<"\n";  // return 0
+    cout<<all_of(b.begin(),b.end(),[](int a){return a<40;})<<"\n";  // return 0
 
     cout<<any_of(b.begin(),b.end(),[](int a){return a>80;})<<"\n";
     cout<<none_of(b.begin(),b.end(),[](int a){return a>100;})<<"\n";

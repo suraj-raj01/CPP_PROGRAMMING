@@ -31,4 +31,12 @@ int main()
     {
         cout<<k<<" ";
     }
+
+    cout<<"\nAscending Order : ";
+    vector<int>c{1,5,4,7,8,9,6};
+    sort(c.begin(),c.end(),[](int a, int b){return a<b;});
+    for(auto k:c)
+    {
+        cout<<k<<" ";
+    }
 }
