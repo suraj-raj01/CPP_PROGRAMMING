@@ -81,7 +81,7 @@ int maxHeight(Node *root)
 void printLeafNodes(Node *root)
 {
     // if node is null, return
-    if (!root)
+    if (root==NULL)
         return;
      
     // if node is leaf node, print its data    
