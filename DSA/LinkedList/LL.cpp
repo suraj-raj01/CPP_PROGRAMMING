@@ -8,42 +8,42 @@ class node{
     class node *nxt;
     node(int val)
     {
-        data = val;
-        nxt = NULL;
+      data = val;
+      nxt = NULL;
     }
 };
 class LinkedList{
     public:
-    node *head;
+    class node *head;
     LinkedList()
     {
-        this->head = NULL;
+      this->head = NULL;
     }
     void insertFront(int x)
     {
-     node *newNode = new node(x);
-     newNode->nxt = head;
-     head = newNode;
+    node *newNode = new node(x);
+    newNode->nxt = head;
+    head = newNode;
     }
     void insertBack(int y)
     {
         node *newNode = new node(y);
         if(head==NULL)
         {
-            head  = newNode;
-            return;
+        head  = newNode;
+        return;
         }
         node *temp = head;
         while(temp->nxt!=NULL)
         {
-            temp = temp->nxt;
+        temp = temp->nxt;
         }
         temp->nxt = newNode;
     }
 
   void deleteAtBeginning() {  
     if (head == nullptr) {  
-      return;  
+    return;  
     }  
     node *temp = head;  
     head = head->nxt;  
@@ -52,16 +52,16 @@ class LinkedList{
 
   void deleteAtEnd() {  
   if (head == nullptr) {  
-    return;  
+  return;  
   }  
   if (head->nxt == nullptr) {  
-    delete head;  
-    head = nullptr;  
-    return;  
+  delete head;  
+  head = nullptr;  
+  return;  
   }  
   node *temp = head;  
   while (temp->nxt->nxt != nullptr) {  
-    temp = temp->nxt;  
+  temp = temp->nxt;  
   }  
   delete temp->nxt;  
   temp->nxt = nullptr;  
@@ -69,13 +69,13 @@ class LinkedList{
 
     void show()
     {
-        node *temp = head;
-        while (temp!=NULL)  
-        {
-            cout<<temp->data<<"    ";
-            temp=temp->nxt;
-        }
-        cout<<endl;
+      node *temp = head;
+      while (temp!=NULL)  
+      {
+        cout<<temp->data<<"    ";
+        temp=temp->nxt;
+      }
+      cout<<endl;
     }
 };
 
