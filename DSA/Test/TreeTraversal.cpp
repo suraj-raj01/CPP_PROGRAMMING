@@ -66,7 +66,9 @@ int maxHeight(Node *root)
     if(root==NULL)
     {
         return 0;
-    }else{
+    }
+    else
+    {
     int lDepth = maxHeight(root->left);
     int rDepth = maxHeight(root->right);
     if(lDepth>rDepth)
