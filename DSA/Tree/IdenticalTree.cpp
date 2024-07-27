@@ -12,21 +12,21 @@ class node{
         r = NULL;
     }
 };
-bool issame(node *r1,node *r2)
+bool issame(node *root1,node *root2)
 {
-    if(r1==NULL && r2==NULL)
+    if(root1==NULL && root2==NULL)
     {
         return true;
     }
-    else if(r1->l==NULL && r2->l!=NULL)
+    else if(root1->l==NULL && root2->l!=NULL)
     {
         return false;
     }
-    else if(r1->r==NULL && r2->r!=NULL)
+    else if(root1->r==NULL && root2->r!=NULL)
     {
         return false;
     }
-    else if((r1->l->data==r2->l->data)){
+    else if((root1->l->data==root2->l->data)){
         return true;
     }
     else{
