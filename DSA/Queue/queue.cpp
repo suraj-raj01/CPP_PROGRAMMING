@@ -1,29 +1,24 @@
 // C++ Program to implement a queue using array
 #include <iostream>
 using namespace std;
-
 // defining the max size of the queue
 #define MAX_SIZE 100
-
 // Implement the queue data structure
 class Queue {
-public:
+    private:
     int front;
     int rear;
     int arr[MAX_SIZE];
-
     // initializing pointers in the constructor
+    public:
     Queue(){
         front=-1;
         rear=-1;
     }
-
     // Function to check if the queue is empty or not
     bool isEmpty() { return front == -1 && rear==-1?true:false; }
-
     // Function to check if the queue is full or not
     bool isFull() { return rear == MAX_SIZE - 1?true:false; }
-
     // Function to get the front element of the queue
     int getFront()
     {
@@ -33,7 +28,6 @@ public:
         }
         return arr[front];
     }
-
     // Function to get the rear element of the queue
     int getRear()
     {
@@ -43,7 +37,6 @@ public:
         }
         return arr[rear];
     }
-
     // Function to enqueue elements from the queue
     void enqueue(int val)
     {
@@ -55,13 +48,12 @@ public:
         // if queue is empty, set front to 0
         if (isEmpty())
         {
-            front++;
+            front=0;
         }
         rear++;
         }
         arr[rear] = val;
     }
-
     // Function to dequeue elements from the queue
     int dequeue()
     {
@@ -79,7 +71,6 @@ public:
 
         return ans;
     }
-
     // Display function to print the queue
     void display()
     {
