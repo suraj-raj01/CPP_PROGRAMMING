@@ -4,9 +4,9 @@ using namespace std;
 
 class node{
     public:
-    int data;
+    string data;
     class node *nxt;
-    node(int val)
+    node(string val)
     {
       data = val;
       nxt = NULL;
@@ -19,13 +19,13 @@ class LinkedList{
     {
       this->head = NULL;
     }
-    void insertFront(int x)
+    void insertFront(string x)
     {
     node *newNode = new node(x);
     newNode->nxt = head;
     head = newNode;
     }
-    void insertBack(int y)
+    void insertBack(string y)
     {
         node *newNode = new node(y);
         if(head==NULL)
@@ -86,14 +86,18 @@ int main()
     // cout<<"nxt data : "<<obj.nxt<<endl;
     // cout<<"nxt data address : "<<&obj.nxt;
     LinkedList l;
-    l.insertFront(10);
-    l.insertFront(20);
-    l.insertFront(30);
-    l.insertFront(40);
-    l.insertFront(50);
-    l.insertBack(60);
-    l.insertBack(70);
-    cout<<"Original data: \n";
+    cout<<"\nAdd data from front: \n";
+    l.insertFront("10");
+    l.insertFront("20");
+    l.insertFront("30");
+    l.insertFront("40");
+    l.insertFront("50");
+    l.show();
+    cout<<"Add data from back: \n";
+    l.insertBack("60");
+    l.insertBack("70");
+    l.show();
+    cout<<"LinkedList data: \n";
     l.show();
     l.deleteAtBeginning();
     cout<<"After Delete data from begning: \n";
