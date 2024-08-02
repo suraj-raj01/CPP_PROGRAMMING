@@ -24,9 +24,9 @@ Node *create(Node *root)
     {
         return NULL;
     }
-    cout<<"Enter value for left Node: "<<x<<"\n";
+    cout<<"Enter the value for left Node: "<<x<<"\n";
     root->left = create(root->left);
-    cout<<"Enter the value fo right Node: "<<x<<"\n";
+    cout<<"Enter the value for right Node: "<<x<<"\n";
     root->right = create(root->right); 
     return root;
 }
@@ -50,7 +50,7 @@ void InOrder(Node *root)
     cout<<root->data<<"\t";
     InOrder(root->right);
 }
-void PostOrder(Node *root)
+void PostOrder(Node *root) 
 {
     if(root==NULL)
     {

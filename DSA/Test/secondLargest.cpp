@@ -11,5 +11,5 @@ int main()
     cout<<"Second Largest Element is: ";
     cout<<a[s-2];
     // or
-    sort(a.begin(),a.end())
+    sort(a.begin(),a.end());
 }
