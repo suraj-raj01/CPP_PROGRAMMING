@@ -34,4 +34,27 @@ int main()
         cout<<get<2>(a[i])<<"\n";
     }
      cout<<"====================\n";
+
+     vector<tuple<string,string,int>>arr;
+     int record;
+     string firstName;
+     string lastName;
+     int age;
+     cout<<"Enter the number of records: ";
+     cin>>record;
+     for(int i=0; i<record; i++){
+        cout<<"Enter the first name: ";
+        cin>>firstName;
+        cout<<"Enter the second name: ";
+        cin>>lastName;
+        cout<<"Enter the age: ";
+        cin>>age;
+        arr.push_back({firstName,lastName,age});
+     }
+     cout<<"firstName\tLastName\tage\n";
+    for(int i=0; i<record; i++){
+        cout<<get<0>(arr[i])<<"\t\t";
+        cout<<get<1>(arr[i])<<"\t\t";
+        cout<<get<2>(arr[i])<<"\t\n";
+    }
 }
