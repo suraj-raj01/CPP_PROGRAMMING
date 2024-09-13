@@ -2,24 +2,28 @@
 
 #include <iostream>
 using namespace std;
-
-int fib(int n)
+class FibonacciSeries
 {
-    if (n == 0)
+public:
+    int fib(int n)
     {
-        return 0;
+        if (n == 0)
+        {
+            return 0;
+        }
+        if (n == 1)
+        {
+            return 1;
+        }
+        return fib(n - 1) + fib(n - 2);
     }
-    if (n == 1)
-    {
-        return 1;
-    }
-    return fib(n - 1) + fib(n - 2);
-}
+};
 
 int main()
 {
     int n;
     cout << "Enter the number of terms: ";
     cin >> n;
-    cout << fib(n);
+    FibonacciSeries fs = FibonacciSeries();
+    cout<<fs.fib(n);
 }
