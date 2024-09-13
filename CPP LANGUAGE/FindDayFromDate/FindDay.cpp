@@ -1,3 +1,6 @@
+/*
+Write a program to find the day from the date (DD:MM:YY)
+*/
 #include <iostream>
 using namespace std;
 class Date
@@ -41,14 +44,20 @@ public:
 };
 int main()
 {
-    int day, month, year;
-    cout << "Enter the day : ";
-    cin >> day;
+    int date, month, year;
+    cout << "Enter the date : ";
+    cin >> date;
     cout << "Enter the month: ";
     cin >> month;
     cout << "Enter the year: ";
     cin >> year;
-    Date date = Date();
-    string result = date.NameOfDay(day, month, year);
-    cout << result;
+    if (date <= 31 && month <= 12 && year > 999)
+    {
+        Date dates = Date();
+        string result = dates.NameOfDay(date, month, year);
+        cout << result;
+    }else{
+        cout<<"You entered wrong input!!!"<<endl;
+        cout<<"Enter date in 2 digit, month in 2 didit and year in 4 digit";
+    }
 }
