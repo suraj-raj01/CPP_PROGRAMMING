@@ -22,6 +22,18 @@ class Calculator{
     }
 };
 
+class FibonacciSeries{
+    public:
+    void fibonacciSeries(int a, int b, int n){
+        if(n==0){
+            return;
+        }
+        int c = a+b;
+        cout<<c<<" ";
+        fibonacciSeries(b,c,n-1);
+    }
+};
+
 int main()
 {
     Calculator c;
@@ -50,4 +62,13 @@ int main()
         cout<<"Please Enter Valid Opr!!";
         break;
     }
+    // fibonacci series
+    int x,y,n;
+    x = 0;
+    y = 1;
+    cout<<"Enter the number of terms : ";
+    cin>>n;
+    cout<<x<<" "<<y<<" ";
+    FibonacciSeries fs = FibonacciSeries();
+    fs.fibonacciSeries(x,y,n-2);
 }
