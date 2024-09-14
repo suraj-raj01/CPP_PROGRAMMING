@@ -9,18 +9,19 @@ Sample Output: Smallest positive number = 3
 using namespace std;
 
 int findSmallest(int arr[],int size){
-    int max = INT32_MAX;
+    int min = INT32_MAX;
     for(int i=0; i<size; i++){
-        if(max>arr[i]){
-            max = arr[i];
+        if(min>arr[i]){
+            min = arr[i];
         }
     }
-    return max;
+    return min;
 }
 
 int main()
 {
     int arr[] = {1,5,8,-5,8,4,-45,56,77};
     int size = sizeof(arr)/sizeof(int);
+    cout<<"Min Element : ";
     cout<<findSmallest(arr,size);
 }
