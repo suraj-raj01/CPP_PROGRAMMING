@@ -6,7 +6,7 @@ using namespace std;
 
 int returnUniqueElement(vector<int>vec)
 {
-    int temp = 0;
+    int temp=0;
     for(int val1:vec){
         int c = 0;
         for(int val2:vec){
