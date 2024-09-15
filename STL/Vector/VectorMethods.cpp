@@ -47,3 +47,23 @@ int main()
     cout<<"value at 0th index : "<<vec.at(0)<<endl;
     cout<<"value at 1th index : "<<vec.at(1);
 }
+
+/*
+Size : 0
+10
+20
+30
+Size : 3
+Capacity : 4
+Size : 5
+Capacity : 8
+10
+20
+30
+40
+Size : 4
+Front : 10
+Back : 40
+value at 0th index : 10
+value at 1th index : 20
+*/
