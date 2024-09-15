@@ -4,11 +4,12 @@ when an element is inserted or deleted, with their storage being handled automat
 
 Vector Methos : 
 1. size()
-2. push_back()
-3. pull_back()
-4. front()
-5. back()
-6. at()
+2. capacity()
+3. push_back()
+4. pull_back()
+5. front()
+6. back()
+7. at()
 */
 
 #include<iostream>
@@ -27,6 +28,11 @@ int main()
         cout<<val<<endl;
     }
     cout<<"Size : "<<vec.size()<<endl;
+    cout<<"Capacity : "<<vec.capacity()<<endl;
+    vec.push_back(40);
+    vec.push_back(50);
+    cout<<"Size : "<<vec.size()<<endl;
+    cout<<"Capacity : "<<vec.capacity()<<endl;
     // pop_back
     vec.pop_back();
     for(int val:vec){
