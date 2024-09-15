@@ -5,26 +5,27 @@ Output: 5
 
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
-#include<vector>
+#include <vector>
 
-int missingNumber(vector<int>& nums)
+int missingNumber(vector<int> &nums)
 {
     int size = nums.size();
-    int sum = size*(size+1)/2;
+    int sum = size * (size + 1) / 2;
     int s = 0;
-    for(int val:nums){
-        s+=val;
+    for (int val : nums)
+    {
+        s += val;
     }
-    return sum-s;
+    return sum - s;
 }
 
 int main()
 {
-    vector<int> vec = {0,1,2,3,5,6,7,8,9};
+    vector<int> vec = {0, 1, 2, 3, 5, 6, 7, 8, 9};
     int result = missingNumber(vec);
-    cout<<"Missing number : "<<result;
+    cout << "Missing number : " << result;
 }
 
 // Missing number : 4
