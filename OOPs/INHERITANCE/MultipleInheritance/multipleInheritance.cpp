@@ -1,6 +1,6 @@
 // Diamond problems come into the multiple inheritance.
 /*
-int multiple inheritance atleast we use three different classes here the child class
+in multiple inheritance atleast we use three different classes here the child class
 inherits the properties of multiple classes all together. but they are may be
 a diamond problem in multiple inheritance if and only if the previous classes
 having the same signature of functions.
