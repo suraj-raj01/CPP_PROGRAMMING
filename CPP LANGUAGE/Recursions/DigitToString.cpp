@@ -18,7 +18,7 @@ void nToStr(int p, string str[])
 int main()
 {
     int p;
-    string str[10] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+    string str[10] = {"Zero ", "One ", "Two ", "Three ", "Four ", "Five ", "Six ", "Seven ", "Eight ", "Nine "};
     cout << "enter number: ";
     cin >> p;
     nToStr(p, str);
