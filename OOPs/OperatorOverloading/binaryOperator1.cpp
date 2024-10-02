@@ -42,3 +42,41 @@ int main()
     g3 = g1 + g2;
     g3.show();
 }
+
+
+// #include<iostream>
+// using namespace std;
+
+// class Main{
+//     int x,y;
+//     public:
+//     Main(int x=0, int y=0) : x{x},y{y}
+//     {
+
+//     }
+//     Main operator+(Main &obj)
+//     {
+//         Main g;
+//         g.x = x+obj.x;
+//         g.y = y+obj.y;
+//         return g;
+//     }
+//     void show(){
+//         cout<<"x : "<<x<<endl;
+//         cout<<"y : "<<y;
+//     }
+// };
+
+// int main()
+// {
+//     int x1,x2,y1,y2;
+//     x1=2;
+//     x2=4;
+//     y1=3;
+//     y2=6;
+//     Main g1(x1,y1);
+//     Main g2(x2,y2);
+//     Main g3;
+//     g3 = g1+g2;
+//     g3.show();
+// }
