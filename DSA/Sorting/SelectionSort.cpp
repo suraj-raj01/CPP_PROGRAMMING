@@ -1,5 +1,6 @@
 /*
-Selection Sort :-
+Selection Sort :- Selection sort is slower than bubble sort it takes more time to compare the values 
+and the time complexity in average case, worst case as well as in best case is always O(n*2).
 */
 /*
 #include<iostream>
