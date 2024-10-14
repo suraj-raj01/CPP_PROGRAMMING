@@ -87,6 +87,12 @@ int main()
     cout<<"\n"<<swapped<<" Times swapped\n";
 }
 
+/*
+Bubble sort is STABLE (if duplicate value not change his position)
+It is IMPLACE
+
+
+*/
 
 // #include<iostream>
 // using namespace std;
